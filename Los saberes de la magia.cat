@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="13" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fe" gameSystemRevision="50" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8ca7-9cd1-c914-3d7c" name="Los saberes de la magia" revision="13" battleScribeVersion="2.03" authorName="Aswer" library="true" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fe" gameSystemRevision="51" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="bff8-8e34-eb37-f67a" name="Saber del Fuego" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
