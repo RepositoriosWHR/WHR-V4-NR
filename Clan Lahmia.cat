@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Clan Lahmia" id="2b59-1b1b-751e-7717" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" battleScribeVersion="2.03" gameSystemId="30ff-3be8-121c-af2a" gameSystemRevision="50" library="false" revision="3" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Clan Lahmia" id="2b59-1b1b-751e-7717" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" battleScribeVersion="2.03" gameSystemId="30ff-3be8-121c-af2a" gameSystemRevision="50" library="false" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="MercenariosLib" id="d90c-d4a1-34de-349e" importRootEntries="true" targetId="1d4b-e78a-e470-e6d3" type="catalogue"/>
     <catalogueLink name="Los saberes de la magia" id="37a6-95b7-ec75-bb0d" importRootEntries="true" targetId="5d36-008b-d038-0ef7" type="catalogue"/>
@@ -46,7 +46,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
   <selectionEntries>
     <selectionEntry name="Guerreros esqueleto" id="888f-a20b-0592-1eb3" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="abf4-c734-9189-e0ec" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="abf4-c734-9189-e0ec" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -265,8 +265,16 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="33d5-d3a3-f6ec-63f0" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes Mágicos" id="eebf-183d-33a6-8588" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes Mágicos. Ejércitos de la destrucción" id="9b79-9735-25e6-ae36" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos" id="eebf-183d-33a6-8588" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="9b79-9735-25e6-ae36" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -343,7 +351,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
     </selectionEntry>
     <selectionEntry name="Zombis" id="d2c8-ec74-afed-211b" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="11a6-a179-8b62-3bb6" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="11a6-a179-8b62-3bb6" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="bcfc-2004-0675-d530" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -540,7 +548,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
     </selectionEntry>
     <selectionEntry name="Bandadas de murciélagos" id="b030-ca1a-9ef9-30dc" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="8164-0e4b-2686-9ea5" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="8164-0e4b-2686-9ea5" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="7032-af17-7164-c2ff" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -644,7 +652,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
     </selectionEntry>
     <selectionEntry name="Tumularios" id="0bfa-4242-c5d7-5c82" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="0be3-5c93-835f-4d70" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="0be3-5c93-835f-4d70" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="95e2-afcd-a95e-96ed" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -923,8 +931,16 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="60ba-336f-6b28-d5c6" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes Mágicos" id="895d-a778-bb8c-c36e" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes Mágicos. Ejércitos de la destrucción" id="2407-7361-3ddb-57f5" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos" id="895d-a778-bb8c-c36e" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="2407-7361-3ddb-57f5" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos. Clan Lahmia. Tumularios" id="fd71-3131-3ddb-178d" collective="false" hidden="false" import="true" targetId="0d4f-9925-51b8-ce17" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -1059,7 +1075,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
     </selectionEntry>
     <selectionEntry name="Caballería tumularia" id="1f6e-febb-897f-0056" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="643e-82a9-4ce0-8408" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="643e-82a9-4ce0-8408" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="0e83-2a3a-77a7-cea4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -1283,8 +1299,16 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="d457-4f22-026e-cf44" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes Mágicos" id="b368-41ab-1720-be84" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes Mágicos. Ejércitos de la destrucción" id="23ab-a4c9-2235-43ca" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos" id="b368-41ab-1720-be84" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="23ab-a4c9-2235-43ca" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos. Clan Lahmia. Tumularios" id="6cee-fc98-1062-5439" collective="false" hidden="false" import="true" targetId="0d4f-9925-51b8-ce17" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -1394,7 +1418,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
     </selectionEntry>
     <selectionEntry name="Murciélagos vampiro" id="04a3-ca93-4c85-3257" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="d490-4263-a7cf-b0f2" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="d490-4263-a7cf-b0f2" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="82fc-20bf-bf6d-785e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -1406,7 +1430,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
       <infoLinks>
         <infoLink name="No Muerto (1D3)" id="72b7-fcd0-b194-4a96" hidden="false" targetId="d525-40e8-3c14-6012" type="rule"/>
         <infoLink name="Vampiro" id="8438-db8a-95fb-94a2" hidden="false" targetId="ef7d-bb0c-0d9e-f678" type="rule"/>
-        <infoLink name="Bestias" id="c209-17d6-2e4a-c656" hidden="false" targetId="0300-ed31-06b9-0c49" type="rule"/>
+        <infoLink name="Bestia" id="c209-17d6-2e4a-c656" hidden="false" targetId="0300-ed31-06b9-0c49" type="rule"/>
         <infoLink name="Volar (10)" id="760d-e703-fd35-3f18" hidden="false" targetId="be56-917b-a9d5-2c76" type="rule"/>
       </infoLinks>
       <modifiers>
@@ -1501,7 +1525,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
     </selectionEntry>
     <selectionEntry name="Hueste espectral" id="e6d8-ce96-cc22-e155" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="6544-9419-02df-0c27" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="6544-9419-02df-0c27" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="ccfd-8431-740f-92ab" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -1607,7 +1631,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
     </selectionEntry>
     <selectionEntry name="Doncellas Lahmia" id="ef38-9ab3-298c-ba72" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="bd00-f910-c364-5c86" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="bd00-f910-c364-5c86" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="a23c-2a6a-1c11-dca4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -1687,7 +1711,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="d967-69bb-a348-be33" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="d967-69bb-a348-be33" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                 <infoLink name="Arma de mano" id="592b-6bf6-960d-5344" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
               </infoLinks>
             </selectionEntry>
@@ -1897,7 +1921,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
                     <constraint id="cd8d-5d8c-684f-091d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Poderes vampíricos del clan Lahmia" id="0966-7839-5510-1c98" collective="false" hidden="false" import="true" targetId="899c-914d-8271-70b5" type="selectionEntryGroup"/>
+                    <entryLink name="Poderes vampíricos del clan Lahmia. Poder menor" id="0966-7839-5510-1c98" collective="false" hidden="false" import="true" targetId="899c-914d-8271-70b5" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1917,7 +1941,7 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
     </selectionEntry>
     <selectionEntry name="Espíritus" id="08b5-013f-e382-cf96" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Singulares" id="fc01-d27a-9c08-9717" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="fc01-d27a-9c08-9717" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="e190-f719-9c61-c7f2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -2130,7 +2154,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="Señora de vampiros Lahmia" id="6370-4134-8b82-8932" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="653f-6d41-8b75-97ca" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
+        <categoryLink name="Comandantes" id="653f-6d41-8b75-97ca" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
         <categoryLink name="Personajes" id="7f3b-911a-78fc-3f8d" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
       </categoryLinks>
       <costs>
@@ -2273,7 +2297,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                     <constraint id="b82d-61f5-fd7a-b200" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Artefactos Arcanos" id="fe5f-831e-01f2-d4e4" collective="false" hidden="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
+                    <entryLink name="Artefactos arcanos" id="fe5f-831e-01f2-d4e4" collective="false" hidden="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
                     <entryLink name="Artefactos arcanos. Clan Lahmia" id="0b59-5264-9c52-1a77" collective="false" hidden="false" import="true" targetId="ec6d-ffe1-d848-bb1f" type="selectionEntryGroup"/>
                     <entryLink name="Artefactos arcanos. Clan Lahmia. Vampiros" id="1f64-8129-f688-6456" collective="false" hidden="false" import="true" targetId="bd81-3f2d-3668-586f" type="selectionEntryGroup"/>
                     <entryLink name="Artefactos arcanos. Neutral" id="0f67-d5e6-325b-bd67" collective="false" hidden="false" import="true" targetId="072b-e597-817d-be50" type="selectionEntryGroup">
@@ -2303,7 +2327,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
               <selectionEntryGroups>
                 <selectionEntryGroup name="Armas mágicas. Reliquias" id="55c6-016b-58af-e504" collective="false" hidden="false" import="true">
                   <entryLinks>
-                    <entryLink name="Armas Mágicas. Reliquias. Arma de mano" id="1dfc-1dd8-b830-1f37" collective="false" hidden="false" import="true" targetId="6ac5-e7fd-42b0-198b" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Reliquias. Arma de mano" id="1dfc-1dd8-b830-1f37" collective="false" hidden="false" import="true" targetId="6ac5-e7fd-42b0-198b" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Reliquia. Clan Lahmia. Arma de mano" id="de4b-af25-0775-9891" collective="false" hidden="false" import="true" targetId="c12a-d19d-7038-2113" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Reliquia. Clan Lahmia. Arco lahmiano" id="c23c-6026-4ac4-884e" collective="false" hidden="false" import="true" targetId="c523-46aa-c42e-6e20" type="selectionEntryGroup"/>
                   </entryLinks>
@@ -2334,7 +2358,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Objetos hechizados. Reliquias" id="7711-a60b-214e-bfea" collective="false" hidden="false" import="true">
                   <entryLinks>
-                    <entryLink name="Objetos Hechizados - Reliquias" id="386d-adcb-c424-d455" collective="false" hidden="false" import="true" targetId="ca13-8250-6c47-fa86" type="selectionEntryGroup"/>
+                    <entryLink name="Objetos hechizados. Reliquias" id="386d-adcb-c424-d455" collective="false" hidden="false" import="true" targetId="ca13-8250-6c47-fa86" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Reliquias. Clan Lahmia. General" id="8caa-466f-5aa8-d0de" collective="false" hidden="false" import="true" targetId="589a-9d82-0ac1-5d41" type="selectionEntryGroup">
                       <modifiers>
                         <modifier field="hidden" type="set" value="true">
@@ -2791,7 +2815,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="45de-e327-d0c1-3b75" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="45de-e327-d0c1-3b75" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -2996,8 +3020,8 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                 <constraint id="b508-8b07-656a-66c6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Poderes vampíricos del clan Lahmia" id="a31b-138b-cc23-f8a7" collective="false" hidden="false" import="true" targetId="899c-914d-8271-70b5" type="selectionEntryGroup"/>
-                <entryLink name="Poderes vampíricos del clan Lahmia. General" id="84a8-7c97-f383-1176" collective="false" hidden="false" import="true" targetId="462b-87f4-1326-cf47" type="selectionEntryGroup">
+                <entryLink name="Poderes vampíricos del clan Lahmia. Poder menor" id="a31b-138b-cc23-f8a7" collective="false" hidden="false" import="true" targetId="899c-914d-8271-70b5" type="selectionEntryGroup"/>
+                <entryLink name="Poderes vampíricos del clan Lahmia. Poder menor. General" id="84a8-7c97-f383-1176" collective="false" hidden="false" import="true" targetId="462b-87f4-1326-cf47" type="selectionEntryGroup">
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
                       <conditions>
@@ -3026,7 +3050,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink name="Portaestandarte de Batalla" id="b2e2-0a63-e7fa-100b" collective="false" hidden="false" import="true" targetId="897e-1149-172a-b469" type="selectionEntry">
+            <entryLink name="Portaestandarte de batalla" id="b2e2-0a63-e7fa-100b" collective="false" hidden="false" import="true" targetId="897e-1149-172a-b469" type="selectionEntry">
               <constraints>
                 <constraint id="6748-adf7-3b38-f2b4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="9ee1-a27c-ff8f-97a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -3047,7 +3071,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
               </constraints>
               <entryLinks>
                 <entryLink name="Estandartes mágicos. Reliquias. Clan Lahmia" id="1595-f279-2732-6d13" collective="false" hidden="false" import="true" targetId="1e09-9739-4509-9fd1" type="selectionEntryGroup"/>
-                <entryLink name="Estandartes Mágicos - Reliquias" id="d3c6-d89b-d0b8-4ed5" collective="false" hidden="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
+                <entryLink name="Estandartes mágicos. Reliquias" id="d3c6-d89b-d0b8-4ed5" collective="false" hidden="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
                 <entryLink name="Estandartes mágicos" id="21db-f229-17b2-7065" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                 <entryLink name="Estandartes mágicos. Destrucción" id="db9c-3e3b-3eec-3d18" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                   <modifiers>
@@ -3328,7 +3352,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="57b6-7ee8-7e1e-545b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="57b6-7ee8-7e1e-545b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -3337,7 +3361,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="[E] - Neferata, La Reina de los Misterios, Soberana del Clan Lahmia" id="3218-06f0-a5c7-ffa8" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="72ff-f254-7e86-476a" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
+        <categoryLink name="Comandantes" id="72ff-f254-7e86-476a" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
         <categoryLink name="Personajes" id="9455-f978-ee56-6e3a" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
       </categoryLinks>
       <constraints>
@@ -3855,7 +3879,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="Arqueros esqueletos" id="3b1d-e624-fdf1-c571" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="196d-593c-cb46-744b" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="196d-593c-cb46-744b" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -4111,8 +4135,16 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="f1f8-b0b0-f6d4-31c2" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes Mágicos" id="5093-ca08-bd98-2b2b" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes Mágicos. Ejércitos de la destrucción" id="d844-de4c-2f36-0657" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos" id="5093-ca08-bd98-2b2b" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="d844-de4c-2f36-0657" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -4180,8 +4212,8 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                   <entryLinks>
                     <entryLink name="Armas mágicas. Clan Lahmia. Arco lahmiano" id="e20f-8607-2835-f608" collective="false" hidden="false" import="true" targetId="092b-adf9-e9dc-b636" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Arma de mano" id="dea3-4d11-37b9-aebd" collective="false" hidden="false" import="true" targetId="3c61-4f51-9cdf-90ba" type="selectionEntryGroup"/>
-                    <entryLink name="Armas Mágicas. Armas emparejadas" id="c2f6-477f-9c02-8eb0" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
-                    <entryLink name="Armas Mágicas. Arma de mano" id="55e1-c3c9-69a5-5ad0" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Armas emparejadas" id="c2f6-477f-9c02-8eb0" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Arma de mano" id="55e1-c3c9-69a5-5ad0" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Arma de mano" id="4351-bcfc-dbe7-40e4" collective="false" hidden="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Armas emparejadas" id="1824-5743-0efd-3814" collective="false" hidden="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="a891-9c17-5bba-3960" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
@@ -4235,7 +4267,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                 <constraint id="91aa-ef29-9fca-d940" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Poderes vampíricos del clan Lahmia" id="a84d-bffd-04df-b22b" collective="false" hidden="false" import="true" targetId="899c-914d-8271-70b5" type="selectionEntryGroup"/>
+                <entryLink name="Poderes vampíricos del clan Lahmia. Poder menor" id="a84d-bffd-04df-b22b" collective="false" hidden="false" import="true" targetId="899c-914d-8271-70b5" type="selectionEntryGroup"/>
                 <entryLink name="Poderes vampíricos del clan Lahmia. Poder menor. General" id="e572-5a21-0907-33e8" collective="false" hidden="false" import="true" targetId="462b-87f4-1326-cf47" type="selectionEntryGroup">
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
@@ -4452,7 +4484,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="f571-e126-6302-33cb" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="f571-e126-6302-33cb" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Arco lahmiano" id="4807-4180-da01-2f5f" collective="false" hidden="false" import="true" type="upgrade">
@@ -4512,7 +4544,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="[E] - Naimaa, La Orquídea Blanca" id="5bd7-ffa5-f7ce-cc9d" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="566e-535e-23ff-e881" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
+        <categoryLink name="Comandantes" id="566e-535e-23ff-e881" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
         <categoryLink name="Personajes" id="79ac-6287-5c9e-4c69" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
       </categoryLinks>
       <constraints>
@@ -4894,7 +4926,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="[E] - Imentet, Señora suprema de las Doncellas de Neferata" id="3423-456a-5a63-57c5" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ae2f-0dbe-7ee1-6c90" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
+        <categoryLink name="Comandantes" id="ae2f-0dbe-7ee1-6c90" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
         <categoryLink name="Personajes" id="a969-c378-9db4-9d27" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
       </categoryLinks>
       <constraints>
@@ -5160,7 +5192,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="Arqueros a caballo" id="b1c7-69c7-d6d3-3077" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="b713-ef84-c4cb-a5a4" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="b713-ef84-c4cb-a5a4" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -5340,7 +5372,15 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                     <constraint id="e991-9c90-1742-4e4d" field="points" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="25"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="b001-6e24-ca97-2035" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="b001-6e24-ca97-2035" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos" id="c4f8-92fd-a69c-a301" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Orden" id="6379-40cd-c403-027d" collective="false" hidden="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup"/>
                   </entryLinks>
@@ -5385,7 +5425,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="Carros de guerra" id="6d82-bd9d-e5bc-485e" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ef23-e4ac-846a-a1fd" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="ef23-e4ac-846a-a1fd" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="0c01-925e-06fb-2fc5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -5609,7 +5649,15 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                     <constraint id="2ce7-0363-ca2d-ad32" field="points" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="50"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="90cc-f96b-0186-4ae1" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="90cc-f96b-0186-4ae1" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos" id="ff5c-648a-9ebf-23ca" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Orden" id="adac-45c6-a84f-23e8" collective="false" hidden="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup"/>
                   </entryLinks>
@@ -5661,7 +5709,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="Ushabti" id="2733-e2af-cc91-d802" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="b9de-27ca-bff4-0541" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="b9de-27ca-bff4-0541" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="10c7-f4cd-1072-c011" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -5907,7 +5955,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="e08b-b093-38f5-fc5a" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="e08b-b093-38f5-fc5a" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Arma de mano y Arco compuesto con flechas áspid" id="bf41-6248-e531-c252" collective="false" hidden="false" import="true" type="upgrade">
@@ -5968,7 +6016,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="Lanzavirotes de hueso" id="81e7-8c19-810d-c8e4" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="b7bf-dee9-c849-88fc" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="b7bf-dee9-c849-88fc" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="8b5a-1cf2-8da8-3d82" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="3"/>
@@ -6125,7 +6173,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="Catapulta Lanzacráneos" id="b70f-b564-dff3-a850" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="ad3f-2cce-869d-0403" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="ad3f-2cce-869d-0403" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="2312-f787-ca5a-1885" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -6296,7 +6344,7 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
     </selectionEntry>
     <selectionEntry name="Trono del aquelarre" id="6edc-395e-faa0-8330" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9608-6a47-d9e6-73a7" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="9608-6a47-d9e6-73a7" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="44e6-159c-d293-6003" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -6532,7 +6580,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="Coloso necrolítico" id="6681-22a7-157e-3434" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Singulares" id="ba9e-c25c-05a6-d5ac" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="ba9e-c25c-05a6-d5ac" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="6d1f-b280-b482-8593" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -6779,7 +6827,7 @@ especial de 4+.</description>
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="ce0b-d104-d52c-cd8b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="ce0b-d104-d52c-cd8b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Arco del desierto con flechas áspid" id="a548-f337-8724-9333" collective="false" hidden="false" import="true" type="upgrade">
@@ -6801,7 +6849,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="Esfinge de guerra" id="bd7d-f6ca-1356-addc" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Singulares" id="6739-46aa-54e6-2b27" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="6739-46aa-54e6-2b27" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="69e2-3ee1-32ec-83ca" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -7194,8 +7242,8 @@ especial de 4+.</description>
                 <constraint id="ebf4-03ab-5d85-34a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Poderes vampíricos del clan Lahmia" id="be29-3419-9914-3921" collective="false" hidden="false" import="true" targetId="899c-914d-8271-70b5" type="selectionEntryGroup"/>
-                <entryLink name="Poderes vampíricos del clan Lahmia. General" id="b6ca-5c0e-944e-e3a3" collective="false" hidden="false" import="true" targetId="462b-87f4-1326-cf47" type="selectionEntryGroup">
+                <entryLink name="Poderes vampíricos del clan Lahmia. Poder menor" id="be29-3419-9914-3921" collective="false" hidden="false" import="true" targetId="899c-914d-8271-70b5" type="selectionEntryGroup"/>
+                <entryLink name="Poderes vampíricos del clan Lahmia. Poder menor. General" id="b6ca-5c0e-944e-e3a3" collective="false" hidden="false" import="true" targetId="462b-87f4-1326-cf47" type="selectionEntryGroup">
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
                       <conditions>
@@ -7248,7 +7296,7 @@ especial de 4+.</description>
                 <cost name="pts" typeId="points" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="b851-0bde-6dc3-f70b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="b851-0bde-6dc3-f70b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -7569,7 +7617,7 @@ especial de 4+.</description>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink name="Portaestandarte de Batalla" id="6bdc-709c-e2df-d82b" collective="false" hidden="false" import="true" targetId="897e-1149-172a-b469" type="selectionEntry">
+            <entryLink name="Portaestandarte de batalla" id="6bdc-709c-e2df-d82b" collective="false" hidden="false" import="true" targetId="897e-1149-172a-b469" type="selectionEntry">
               <constraints>
                 <constraint id="45d7-54a2-3531-1f1a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="a1db-0b2e-630d-0410" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -7583,13 +7631,18 @@ especial de 4+.</description>
               </constraints>
               <entryLinks>
                 <entryLink name="Estandartes mágicos. Clan Lahmia. Tumularios" id="fb40-d31e-9aee-597e" collective="false" hidden="false" import="true" targetId="0d4f-9925-51b8-ce17" type="selectionEntryGroup"/>
-                <entryLink name="Estandartes Mágicos - Reliquias" id="c8c4-690f-384c-501a" collective="false" hidden="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
+                <entryLink name="Estandartes mágicos. Reliquias" id="c8c4-690f-384c-501a" collective="false" hidden="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
                 <entryLink name="Talismanes mágicos. Clan Lahmia" id="82db-2d7b-25e1-026c" collective="false" hidden="false" import="true" targetId="c276-6433-a171-0ca9" type="selectionEntryGroup"/>
                 <entryLink name="Estandartes mágicos. Destrucción" id="9e8f-17b3-fed2-385b" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
                       <conditions>
                         <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1"/>
+                      </conditions>
+                    </modifier>
+                    <modifier field="hidden" type="set" value="true">
+                      <conditions>
+                        <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -7783,7 +7836,7 @@ especial de 4+.</description>
             <constraint id="ad5e-1985-1e2c-cdaa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Corcel esquelético (Señor Tumulario)" id="41ff-e31a-d23b-6742" collective="false" hidden="false" import="true" targetId="7896-ab61-6271-17e7" type="selectionEntry">
+            <entryLink name="Corcel esquelético (Personajes)" id="41ff-e31a-d23b-6742" collective="false" hidden="false" import="true" targetId="7896-ab61-6271-17e7" type="selectionEntry">
               <constraints>
                 <constraint id="588b-714f-7ddc-35b0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
@@ -7968,7 +8021,7 @@ especial de 4+.</description>
                   </constraints>
                   <entryLinks>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="6034-8b6c-f3cd-50bf" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
-                    <entryLink name="Armas Mágicas. Armas emparejadas" id="caf1-0eed-9008-3da2" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Armas emparejadas" id="caf1-0eed-9008-3da2" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Arma de mano" id="5eb7-28d5-f2b6-f883" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Arma a dos manos" id="5d10-8a5d-e45a-44d0" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Arma de mano" id="a622-b3fb-90b9-988c" collective="false" hidden="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
@@ -8203,7 +8256,7 @@ especial de 4+.</description>
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="e35b-608c-a0cb-c658" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="e35b-608c-a0cb-c658" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -8317,7 +8370,7 @@ especial de 4+.</description>
                     <constraint id="1df6-e839-3d52-52f1" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Armas Mágicas. Arma a dos manos" id="4515-c92f-22ca-bb5b" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Arma a dos manos" id="4515-c92f-22ca-bb5b" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Objetos hechizados" id="77d8-2c89-0f8a-1fec" collective="false" hidden="false" import="true">
@@ -8325,7 +8378,7 @@ especial de 4+.</description>
                     <constraint id="9bc4-dbbc-5c9f-19de" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Objetos Hechizados" id="794f-963d-d382-156e" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                    <entryLink name="Objetos hechizados" id="794f-963d-d382-156e" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Clan Lahmia" id="ca19-3830-e65f-085c" collective="false" hidden="false" import="true" targetId="28e2-a2bc-e16f-843e" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Infantería o Infantería monstruosa" id="0f52-2b96-cba7-2c4a" collective="false" hidden="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
                       <modifiers>
@@ -8343,7 +8396,7 @@ especial de 4+.</description>
                     <constraint id="491f-c992-4dca-de01" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Talismanes Mágicos" id="95f6-4b3d-c0b4-b3e1" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="95f6-4b3d-c0b4-b3e1" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Talismanes mágicos. Clan Lahmia" id="8a8b-45f2-905d-6947" collective="false" hidden="false" import="true" targetId="c276-6433-a171-0ca9" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -8519,7 +8572,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[Ex] - Coro espectral" id="0be5-be5f-79cf-bf87" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e7ad-9146-0309-662e" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="e7ad-9146-0309-662e" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="77fd-aa72-302d-30b6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -8721,7 +8774,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[B] - Ralea" id="71a8-5f8f-ffe7-6f38" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="4de2-3fcb-a1c1-341d" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="4de2-3fcb-a1c1-341d" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="c1da-f733-b878-fc85" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -9779,7 +9832,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="2dc6-9c3b-0d62-5048" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="3c34-2b75-1134-78de" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="c3e5-8b38-ed68-c4d6" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="c3e5-8b38-ed68-c4d6" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -9997,7 +10058,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="6713-4297-867d-59f1" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="90fd-4f48-66a4-21ff" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Orden" id="a6ec-047a-5fcd-b3e1" collective="false" hidden="false" import="true" targetId="8eda-7efa-8724-cd5b" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="a6ec-047a-5fcd-b3e1" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -11283,7 +11352,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[I] - Alabarderos" id="f843-5298-c55b-c31b" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="b6e7-a1d0-5b38-0700" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="b6e7-a1d0-5b38-0700" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -11639,7 +11708,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="5c20-9c23-b426-d985" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="ac21-9d38-267a-9335" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="acc9-b045-a5a8-bcbc" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="acc9-b045-a5a8-bcbc" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -11675,7 +11752,7 @@ especial de 4+.</description>
             <constraint id="06c3-2b88-45de-ce8c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Unidad principal" id="b67b-e5ab-f253-2ecc" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
+            <entryLink name="Unidad principal (Imperio)" id="b67b-e5ab-f253-2ecc" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry name="Destacamento (Alabarderos)" id="25d5-fa9b-1e8a-f484" collective="false" hidden="false" import="true" type="upgrade">
@@ -11747,7 +11824,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[I] - Arqueros" id="98b4-16d9-a65f-3c48" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="cbe9-4c4a-d8bf-d624" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="cbe9-4c4a-d8bf-d624" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -12147,7 +12224,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="40fe-c6a6-2ce1-f7fb" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="6724-5cd9-0c57-08f7" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="df40-8a73-7562-432a" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="df40-8a73-7562-432a" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                   <modifiers>
                     <modifier field="hidden" type="set" value="true">
@@ -12230,7 +12315,7 @@ especial de 4+.</description>
             <constraint id="6c1e-1a9c-5988-d2ec" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Unidad principal" id="f477-7f28-3e33-7eb7" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry">
+            <entryLink name="Unidad principal (Imperio)" id="f477-7f28-3e33-7eb7" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry">
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
@@ -12285,7 +12370,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[I] - Ballesteros " id="3b68-23a2-cef9-8779" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="4294-5c7f-4578-d964" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="4294-5c7f-4578-d964" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -12658,7 +12743,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="7283-2373-e6fd-f47d" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="621d-3ee2-3b7b-2a7c" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="8e5a-8c71-a3e1-1b09" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="8e5a-8c71-a3e1-1b09" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -12691,7 +12784,7 @@ especial de 4+.</description>
             <constraint id="aac4-e322-baf8-3ba1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Unidad principal" id="9cb5-d132-d670-9036" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
+            <entryLink name="Unidad principal (Imperio)" id="9cb5-d132-d670-9036" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry name="Destacamento (Ballesteros)" id="00db-084d-a2bb-a9fe" collective="false" hidden="false" import="true" type="upgrade">
@@ -12855,7 +12948,7 @@ especial de 4+.</description>
                     <entryLink name="Armas mágicas. Arma de mano" id="f76a-d5a1-3d03-ddd9" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Arma a dos manos" id="c338-02e9-6569-c54e" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Alabarda" id="d437-815d-e40a-3629" collective="false" hidden="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Personajes del orden. Arma de mano" id="b720-03bd-2279-39ee" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Orden. Arma de mano" id="b720-03bd-2279-39ee" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Objetos hechizados" id="a72a-5067-fe81-79bb" collective="false" hidden="false" import="true">
@@ -12863,7 +12956,7 @@ especial de 4+.</description>
                     <constraint id="53e6-8a77-6f59-561e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Objetos Hechizados" id="ebcd-b2aa-3a9d-6e82" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                    <entryLink name="Objetos hechizados" id="ebcd-b2aa-3a9d-6e82" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Clan Lahmia" id="a4ec-93df-937c-aa29" collective="false" hidden="false" import="true" targetId="28e2-a2bc-e16f-843e" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Infantería o Infantería monstruosa" id="2849-9331-7466-ac1b" collective="false" hidden="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
                       <modifiers>
@@ -13160,7 +13253,7 @@ especial de 4+.</description>
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Pistola" id="105c-ad9e-30af-fff3" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
+                    <infoLink name="Pistola (Disparo)" id="105c-ad9e-30af-fff3" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Ristra de pistolas" id="2294-c234-be5d-046d" collective="false" hidden="false" import="true" type="upgrade">
@@ -13249,7 +13342,7 @@ especial de 4+.</description>
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="ca57-a4b0-e4c9-088e" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="ca57-a4b0-e4c9-088e" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Arma a dos manos" id="9599-8287-e809-998f" collective="false" hidden="false" import="true" type="upgrade">
@@ -13440,7 +13533,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[I] - Compañías libres " id="397e-8091-3319-2a55" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="96e8-7c8c-de08-d288" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="96e8-7c8c-de08-d288" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -13561,7 +13654,7 @@ especial de 4+.</description>
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="e9c9-f1ed-ec93-ca9f" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="e9c9-f1ed-ec93-ca9f" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Armadura ligera" id="0a54-5272-1713-f7c7" collective="false" hidden="false" import="true" type="upgrade">
@@ -13830,7 +13923,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[I] - Espadachines" id="785d-ffc7-f415-7cce" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="3635-9600-23ac-b824" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="3635-9600-23ac-b824" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -14189,7 +14282,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="5b48-8108-0f06-af97" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="9105-7303-5af9-bd67" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="f586-1d55-5305-91d2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="f586-1d55-5305-91d2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -14222,7 +14323,7 @@ especial de 4+.</description>
             <constraint id="edd5-064a-bcc2-af3f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Unidad principal" id="6e66-d747-a826-a523" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
+            <entryLink name="Unidad principal (Imperio)" id="6e66-d747-a826-a523" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry name="Destacamento (Espadachines)" id="32ef-f041-7492-68e2" collective="false" hidden="false" import="true" type="upgrade">
@@ -14269,7 +14370,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[I] - Fusileros" id="f92d-d3af-33d6-5eb0" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="34f0-b942-0137-d9ec" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="34f0-b942-0137-d9ec" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -14700,7 +14801,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="2df9-e096-ac5f-6ed0" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="b3fc-029c-290e-b8b2" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="8ec6-0973-6585-8e14" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="8ec6-0973-6585-8e14" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -14733,7 +14842,7 @@ especial de 4+.</description>
             <constraint id="4d34-32a4-caca-550b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Unidad principal" id="e91f-efc7-988d-ff9b" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
+            <entryLink name="Unidad principal (Imperio)" id="e91f-efc7-988d-ff9b" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry name="Destacamento (Fusileros)" id="4a1d-f46c-1b82-a1a8" collective="false" hidden="false" import="true" type="upgrade">
@@ -14889,9 +14998,17 @@ especial de 4+.</description>
                     <entryLink name="Armas mágicas. Clan Lahmia. Arma de mano" id="ee16-d511-13e8-eedb" collective="false" hidden="false" import="true" targetId="3c61-4f51-9cdf-90ba" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Arma de mano" id="c4bd-891b-cab0-c3d0" collective="false" hidden="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Armas emparejadas" id="af0b-702e-68d9-7b0b" collective="false" hidden="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Personajes del orden. Arma de mano" id="7a08-8bd8-1dc8-4565" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Orden. Arma de mano" id="7a08-8bd8-1dc8-4565" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="5d40-402e-0b87-c664" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="f52e-d671-a1bf-eed1" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="f52e-d671-a1bf-eed1" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Objetos hechizados" id="e1fc-af58-4146-4ce6" collective="false" hidden="false" import="true">
@@ -14899,7 +15016,7 @@ especial de 4+.</description>
                     <constraint id="be2d-4b4c-caa1-a75c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Objetos Hechizados" id="557a-2252-c240-28f4" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
+                    <entryLink name="Objetos hechizados" id="557a-2252-c240-28f4" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Clan Lahmia" id="e72e-1f62-9d97-6b53" collective="false" hidden="false" import="true" targetId="28e2-a2bc-e16f-843e" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Infantería o Infantería monstruosa" id="3654-4d81-d9bf-830b" collective="false" hidden="false" import="true" targetId="f818-5ec9-65a5-1318" type="selectionEntryGroup">
                       <modifiers>
@@ -14918,7 +15035,7 @@ especial de 4+.</description>
                   </constraints>
                   <entryLinks>
                     <entryLink name="Talismanes mágicos. Clan Lahmia" id="7ef8-9786-0423-7a25" collective="false" hidden="false" import="true" targetId="c276-6433-a171-0ca9" type="selectionEntryGroup"/>
-                    <entryLink name="Talismanes Mágicos" id="0a0b-4c72-2366-bc05" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="0a0b-4c72-2366-bc05" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -15141,7 +15258,7 @@ especial de 4+.</description>
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="b5b6-c377-c2ad-5957" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="b5b6-c377-c2ad-5957" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Arma a dos manos" id="b211-1a1d-e1aa-f615" collective="false" hidden="false" import="true" type="upgrade">
@@ -15222,7 +15339,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[I] - Lanceros" id="8f94-0567-7aa6-7201" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="0c25-bdf7-9ee1-c1f4" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="0c25-bdf7-9ee1-c1f4" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -15581,7 +15698,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="c6f1-642c-bb0a-4b6e" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="a08e-9454-b67a-3538" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="2f14-e3e6-1093-2346" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="2f14-e3e6-1093-2346" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -15614,7 +15739,7 @@ especial de 4+.</description>
             <constraint id="e666-9715-eb6f-4d1b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Unidad principal" id="2e8e-8a0e-efe2-56e9" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
+            <entryLink name="Unidad principal (Imperio)" id="2e8e-8a0e-efe2-56e9" collective="false" hidden="false" import="true" targetId="54c1-2562-0e1f-320d" type="selectionEntry"/>
           </entryLinks>
           <selectionEntries>
             <selectionEntry name="Destacamento (Lanceros)" id="87b1-c40d-1ab0-c3ca" collective="false" hidden="false" import="true" type="upgrade">
@@ -15661,7 +15786,7 @@ especial de 4+.</description>
     </selectionEntry>
     <selectionEntry name="[I] - Caballeros imperiales" id="5aa3-2094-d2d0-e79c" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="426c-32ec-11cd-ed5c" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="426c-32ec-11cd-ed5c" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -15840,7 +15965,15 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="423e-3658-7eef-199b" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="30c8-9e98-e30c-65f8" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="5da0-595d-3d0f-ae88" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="5da0-595d-3d0f-ae88" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -16718,7 +16851,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
     </selectionEntry>
     <selectionEntry name="[K] - Lanceros gospodar" id="d0cb-7f36-4ffd-652c" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="2156-029c-72ac-4975" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="2156-029c-72ac-4975" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -17011,7 +17144,15 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="97fa-b235-a25c-6313" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="4f8c-d17c-5517-6b2c" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="4ce3-98c1-4c46-ac25" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="4ce3-98c1-4c46-ac25" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -17066,7 +17207,7 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
     </selectionEntry>
     <selectionEntry name="[K] - Lanceros alados" id="6f3a-1786-f654-a908" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="bd6d-9f19-8dae-5bea" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="bd6d-9f19-8dae-5bea" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -17205,7 +17346,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink name="Caballo de guerra (kislevita)" id="f448-4157-9578-3aef" collective="false" hidden="false" import="true" targetId="aedf-5c8f-890b-aa39" type="selectionEntry">
+            <entryLink name="Caballo de guerra (Unidades)" id="f448-4157-9578-3aef" collective="false" hidden="false" import="true" targetId="aedf-5c8f-890b-aa39" type="selectionEntry">
               <constraints>
                 <constraint id="31d5-6fc1-a8cb-b1d6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="399a-de60-2a21-7e50" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -17300,7 +17441,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="efd6-9b68-6bf9-5cff" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="eb50-9036-f2ee-e3ca" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="8bda-f912-a5e8-410a" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="8bda-f912-a5e8-410a" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -17311,7 +17460,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[K] - Kossars blindados" id="aa82-4a43-bf6b-34a6" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="1e16-e479-182e-9f07" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="1e16-e479-182e-9f07" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="bed9-0d98-e9da-dce8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -17618,7 +17767,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="33d5-a701-6aab-c972" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="48be-8cbe-b0c3-6409" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="6ad1-b2ee-999b-67fb" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="6ad1-b2ee-999b-67fb" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -17652,7 +17809,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[K] - Kossars" id="51f5-189f-8d67-e2a7" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="ac43-93de-6403-0d55" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="ac43-93de-6403-0d55" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -17943,7 +18100,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="7f6c-ba17-6726-1757" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="3b73-8739-a0d6-f86b" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="afa1-0235-b861-7300" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="afa1-0235-b861-7300" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -18009,7 +18174,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[K] - Cazadores" id="243c-f5bc-5f24-470c" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="dd2b-c17e-4ee8-4537" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="dd2b-c17e-4ee8-4537" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -18299,7 +18464,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="0a7b-79c7-b22b-e963" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="0a7b-79c7-b22b-e963" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
               <modifiers>
                 <modifier field="points" type="increment" value="1">
@@ -18334,7 +18499,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[K] - Arqueros ungol a caballo" id="e3ad-6587-3888-4637" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="3573-f6f2-758a-ef12" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="3573-f6f2-758a-ef12" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -18447,7 +18612,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink name="Caballo de guerra (kislevita)" id="6912-5c38-f7c6-0c18" collective="false" hidden="false" import="true" targetId="aedf-5c8f-890b-aa39" type="selectionEntry">
+            <entryLink name="Caballo de guerra (Unidades)" id="6912-5c38-f7c6-0c18" collective="false" hidden="false" import="true" targetId="aedf-5c8f-890b-aa39" type="selectionEntry">
               <constraints>
                 <constraint id="78be-a7bb-0e0c-9d8e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="c6a7-9efa-eb2c-a59f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -18904,7 +19069,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <entryLink name="Armas mágicas. Arma de mano" id="90ce-f345-9389-6d60" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Arma a dos manos" id="806a-0509-b11b-49bb" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Alabarda" id="c60c-2e68-627d-48b4" collective="false" hidden="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Personajes del orden. Arma de mano" id="77e0-6d94-a4ed-1fc8" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Orden. Arma de mano" id="77e0-6d94-a4ed-1fc8" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Objetos hechizados" id="af59-7235-b7ea-2dec" collective="false" hidden="false" import="true">
@@ -19284,7 +19449,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="33ff-84bc-aa2c-557b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="33ff-84bc-aa2c-557b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Lanza" id="67bc-5ad2-91c2-edc1" collective="false" hidden="false" import="true" type="upgrade">
@@ -19388,7 +19553,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[Est] - Piqueros estalianos" id="d2af-a43f-7292-958e" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="52cb-af4c-581b-608b" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="52cb-af4c-581b-608b" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -19724,7 +19889,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="154b-c2be-9ace-b4e9" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="37b1-4666-b04b-44a6" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="37b1-4666-b04b-44a6" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="a88b-60d6-51a9-5650" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -19736,7 +19909,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[Est] - Milicia estaliana" id="cf92-9907-dbcc-c4a2" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="1058-9ce3-166f-bf7e" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="1058-9ce3-166f-bf7e" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="8280-a0de-8c7f-c4e6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -20020,7 +20193,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="99ad-3b9e-4feb-7746" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="99ad-3b9e-4feb-7746" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="points" type="increment" value="0.5">
@@ -20146,7 +20319,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[Est] - Rodeleros" id="57f5-1439-0f1d-7270" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="8884-78c3-2f4c-02b0" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="8884-78c3-2f4c-02b0" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="631f-a588-47df-fe23" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -20470,7 +20643,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[Est] - Tiradores" id="b076-ad6d-a3f9-acb9" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="01d8-6ad9-328e-52d6" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="01d8-6ad9-328e-52d6" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -20825,7 +20998,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="a181-d488-a9aa-f855" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="d6d5-1ef9-83da-bed2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="d6d5-1ef9-83da-bed2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="66cd-5e17-3be3-ec42" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -20837,7 +21018,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[Est] - Jinetes Estalianos" id="a3c9-e7e3-0487-8bfc" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="6906-7499-7fc5-cb4b" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="6906-7499-7fc5-cb4b" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="193a-f887-6a07-a741" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -20981,7 +21162,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
           </costs>
           <entryLinks>
-            <entryLink name="Caballo de guerra (kislevita)" id="9f9a-748f-dc80-a11b" collective="false" hidden="false" import="true" targetId="aedf-5c8f-890b-aa39" type="selectionEntry">
+            <entryLink name="Caballo de guerra (Unidades)" id="9f9a-748f-dc80-a11b" collective="false" hidden="false" import="true" targetId="aedf-5c8f-890b-aa39" type="selectionEntry">
               <constraints>
                 <constraint id="14d0-c513-bb6b-ecbe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                 <constraint id="4ab7-5343-6916-17e6" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
@@ -21062,7 +21243,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Pistola" id="0c4e-b206-28c2-78ae" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
+                    <infoLink name="Pistola (Disparo)" id="0c4e-b206-28c2-78ae" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="points" type="increment" value="3">
@@ -21137,7 +21318,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="6a91-8403-d2b5-be58" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="b34f-c1cd-ea5b-9e36" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="b34f-c1cd-ea5b-9e36" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="5a8e-25c7-29b5-16da" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -21149,7 +21338,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[Est] - Caballeros estalianos" id="cf55-6364-b382-97b0" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="ab93-b69a-23d8-e67e" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="ab93-b69a-23d8-e67e" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -21587,7 +21776,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="0f4e-48cc-d88a-b96c" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="8b84-9bee-0a81-71be" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="8b84-9bee-0a81-71be" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="6c1f-3e74-e3d1-bcf3" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -21746,7 +21943,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     <selectionEntry name="[Est][H] - Capitán estaliano" id="0e46-247e-13eb-0474" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Personajes" id="5f36-4e74-c3f2-f761" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
-        <categoryLink name="New CategoryLink" id="9650-e53a-fa67-f6d5" hidden="false" primary="true" targetId="4865726f657323232344415441232323"/>
+        <categoryLink name="Héroes" id="9650-e53a-fa67-f6d5" hidden="false" primary="true" targetId="4865726f657323232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -21824,10 +22021,10 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <constraint id="6b48-1f96-145e-4362" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Armas Mágicas. Arma de mano" id="5ec3-89a7-8080-f1de" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
-                    <entryLink name="Armas Mágicas. Armas emparejadas" id="dcf7-a609-ffaf-a4a6" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
-                    <entryLink name="Armas Mágicas. Lanza" id="6222-7527-c737-0ade" collective="false" hidden="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Personajes del orden. Arma de mano" id="fda8-6377-bbed-50d5" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Arma de mano" id="5ec3-89a7-8080-f1de" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Armas emparejadas" id="dcf7-a609-ffaf-a4a6" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Lanza" id="6222-7527-c737-0ade" collective="false" hidden="false" import="true" targetId="d8b7-876d-b68d-3fb1" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Orden. Arma de mano" id="fda8-6377-bbed-50d5" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Alabarda" id="3922-64a6-0cab-255f" collective="false" hidden="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Arco lahmiano" id="c466-f28f-c0a4-2a85" collective="false" hidden="false" import="true" targetId="092b-adf9-e9dc-b636" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Arma de mano" id="6843-5a80-d66b-0af9" collective="false" hidden="false" import="true" targetId="3c61-4f51-9cdf-90ba" type="selectionEntryGroup"/>
@@ -22142,7 +22339,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="4e15-5a36-0e6d-d3b0" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="4e15-5a36-0e6d-d3b0" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Lanza" id="af0d-0e6e-d367-7ac1" collective="false" hidden="false" import="true" type="upgrade">
@@ -22459,7 +22656,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     <selectionEntry name="[Est][H] - Maestro esgrimista" id="e153-43de-8471-cdd7" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Personajes" id="acba-6eeb-c550-93ff" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
-        <categoryLink name="New CategoryLink" id="ed61-6092-c112-2645" hidden="false" primary="true" targetId="4865726f657323232344415441232323"/>
+        <categoryLink name="Héroes" id="ed61-6092-c112-2645" hidden="false" primary="true" targetId="4865726f657323232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -22521,7 +22718,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Armas mágicas. Arma de mano" id="2abe-0a86-3bfe-2174" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
-                    <entryLink name="Armas Mágicas. Armas emparejadas" id="317c-4f75-5542-fe18" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Armas emparejadas" id="317c-4f75-5542-fe18" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Arma de mano" id="88b3-2295-cf7d-514f" collective="false" hidden="false" import="true" targetId="3c61-4f51-9cdf-90ba" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="4dcf-6643-3171-9206" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
                   </entryLinks>
@@ -22579,7 +22776,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
               </costs>
               <infoLinks>
                 <infoLink name="Arma de mano" id="14e8-6111-42a1-5133" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-                <infoLink name="Arma de mano adicional" id="4ebd-8dad-c139-3da4" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="4ebd-8dad-c139-3da4" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Armadura ligera" id="b816-9332-552b-c72e" collective="false" hidden="false" import="true" type="upgrade">
@@ -22777,7 +22974,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     <selectionEntry name="[Est][H] - Mago" id="5370-4be1-1cca-b90a" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Personajes" id="a704-ef4e-dacb-fd02" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
-        <categoryLink name="New CategoryLink" id="1dfe-2bb8-b4f2-16b7" hidden="false" primary="true" targetId="4865726f657323232344415441232323"/>
+        <categoryLink name="Héroes" id="1dfe-2bb8-b4f2-16b7" hidden="false" primary="true" targetId="4865726f657323232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -22838,13 +23035,21 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <entryLink name="Armas mágicas. Arma de mano" id="9ec8-7f02-2c02-abdc" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Arma de mano" id="430e-bbe8-82bb-c9e3" collective="false" hidden="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Armas emparejadas" id="0808-f4fe-f0f3-f460" collective="false" hidden="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Personajes del orden. Arma de mano" id="3b92-e24c-9894-5b08" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Orden. Arma de mano" id="3b92-e24c-9894-5b08" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Arma a dos manos" id="fa65-a832-fce1-80fd" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas de mano. Hechiceros" id="7325-6d52-d9a2-dd2c" collective="false" hidden="false" import="true" targetId="8385-6709-7b08-c13f" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Armas emparejadas" id="8451-2c4e-ea8e-9bc1" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="0e48-2cb7-84fd-f628" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Arma de mano" id="a2f7-c7c1-e05e-104f" collective="false" hidden="false" import="true" targetId="3c61-4f51-9cdf-90ba" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="fe35-e62e-9179-90dc" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup"/>
+                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="fe35-e62e-9179-90dc" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Objetos hechizados" id="fac1-9e3a-b9b2-2d94" collective="false" hidden="false" import="true">
@@ -22881,7 +23086,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Artefactos arcanos" id="da60-b252-be33-b9da" collective="false" hidden="false" import="true" targetId="325e-df44-d279-1ddb" type="selectionEntryGroup"/>
                     <entryLink name="Artefactos arcanos. Clan Lahmia" id="a835-4735-bd15-7cc7" collective="false" hidden="false" import="true" targetId="ec6d-ffe1-d848-bb1f" type="selectionEntryGroup"/>
-                    <entryLink name="Artefactos arcanos. Personajes del Orden" id="742b-5cd1-84be-d44d" collective="false" hidden="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup"/>
+                    <entryLink name="Artefactos arcanos. Orden" id="742b-5cd1-84be-d44d" collective="false" hidden="false" import="true" targetId="a315-670d-923c-fddf" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -23131,7 +23336,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="5663-b8b2-f772-4644" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="5663-b8b2-f772-4644" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -23187,7 +23392,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[M] - Arcabuceros" id="dd9d-2187-16d5-f3f1" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="8a13-6c90-42c4-f875" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="8a13-6c90-42c4-f875" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -23512,7 +23717,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="9fee-2e7b-b233-8e73" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="a833-95bf-b08a-4047" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="b164-da81-c8f5-6dbd" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="b164-da81-c8f5-6dbd" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -23523,7 +23736,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[M] - Arqueros" id="6d41-7b09-e469-68cd" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="07d8-446e-ca3d-7ddc" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="07d8-446e-ca3d-7ddc" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -23795,7 +24008,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="9805-9850-7aa9-b746" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="6cf1-a910-3f6b-ccb5" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="ab0c-2f61-0388-e1e2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="ab0c-2f61-0388-e1e2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -23870,7 +24091,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[M] - Infantería ligera" id="81c4-efbb-2df5-4ada" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="6710-5018-de63-3fc9" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="6710-5018-de63-3fc9" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -24195,7 +24416,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="405d-9401-dfb0-8627" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="5ad2-5358-4c78-d644" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="de79-3a14-146b-61a0" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="de79-3a14-146b-61a0" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -24206,7 +24435,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[M] - Infantería pesada" id="b8e1-1a7c-3474-54a2" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="c35d-6834-f249-a1c5" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="c35d-6834-f249-a1c5" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="9aea-0365-98f6-105d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -24514,7 +24743,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="d137-cfc2-fe7d-d241" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="b5b8-04e6-5f07-c51f" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="b5b8-04e6-5f07-c51f" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos" id="0566-1f84-d2ab-c02f" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -24646,7 +24883,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[M] - Piqueros" id="df89-a1d5-7867-e3e3" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="a93d-c44a-30dd-aaa1" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="a93d-c44a-30dd-aaa1" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -24934,7 +25171,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="4c04-7c28-961c-a5bf" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="8eba-78e2-882a-bac3" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="e31f-6872-85cf-66f2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="e31f-6872-85cf-66f2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -24945,7 +25190,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[M] - Ballesteros" id="45b2-aba3-2bfd-c229" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="a75e-2afa-1545-7e3a" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="a75e-2afa-1545-7e3a" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -25269,7 +25514,15 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </costs>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="259a-6cd9-ed31-07c6" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="eba0-594a-98fe-e943" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup"/>
+                    <entryLink name="Estandartes mágicos. Destrucción" id="eba0-594a-98fe-e943" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                      <modifiers>
+                        <modifier field="hidden" type="set" value="true">
+                          <conditions>
+                            <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="407e-f562-e265-df9c" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntry>
@@ -25281,7 +25534,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     </selectionEntry>
     <selectionEntry name="[M] - Tropas auxiliares" id="8719-fcee-c2e4-d73d" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="ffb6-3d46-2ea4-6c7d" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="ffb6-3d46-2ea4-6c7d" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="ea29-6a31-e43b-777f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -25765,7 +26018,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <constraint id="35b4-3ea4-e5f8-fcfe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Talismanes Mágicos" id="e663-6dba-9a9e-695f" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="e663-6dba-9a9e-695f" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Talismanes mágicos. Clan Lahmia" id="a379-69ea-f91e-80ec" collective="false" hidden="false" import="true" targetId="c276-6433-a171-0ca9" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -26103,7 +26356,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="7a38-5a06-deba-dea3" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="7a38-5a06-deba-dea3" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Arma a dos manos" id="61fd-b727-b3a0-5f6f" collective="false" hidden="false" import="true" type="upgrade">
@@ -26276,7 +26529,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Ristra de pistolas" id="d99c-706e-7f0c-6113" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
+                    <infoLink name="Ristra de pistolas (Disparo)" id="d99c-706e-7f0c-6113" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry name="Pistola" id="65ef-0d7a-0fa6-6170" collective="false" hidden="false" import="true" type="upgrade">
@@ -26667,7 +26920,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="4aae-5e58-cc10-88d6" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="4aae-5e58-cc10-88d6" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Arma a dos manos" id="7c7c-2905-100f-12ff" collective="false" hidden="false" import="true" type="upgrade">
@@ -26744,7 +26997,7 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
     <profile name="Arco lahmiano" id="c2af-c6b6-09d2-be2a" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Arma">
       <characteristics>
         <characteristic name="Rango" typeId="52616e676523232344415441232323">24&quot;</characteristic>
-        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">F del portador</characteristic>
+        <characteristic name="Fuerza" typeId="537472656e67746823232344415441232323">4</characteristic>
         <characteristic name="Reglas especiales" typeId="5370656369616c2052756c657323232344415441232323">Lluvia de flechas.Ataques envenenados, Ataques mágicos y Disparo rápido.</characteristic>
       </characteristics>
     </profile>
@@ -27516,7 +27769,7 @@ Para poder incluir una unidad exclusiva de un reino, debes tener un personaje de
     </selectionEntry>
     <selectionEntry name="Carro de guerra" id="bd17-e1e4-d9c0-4b3d" collective="false" hidden="false" import="true" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="1686-7af2-5a1a-530a" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="1686-7af2-5a1a-530a" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="cb0e-c71b-b8e0-51c0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -28056,7 +28309,7 @@ especial de 4+.</description>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Bestias" id="24f7-7f97-8100-a2c4" hidden="false" targetId="0300-ed31-06b9-0c49" type="rule"/>
+        <infoLink name="Bestia" id="24f7-7f97-8100-a2c4" hidden="false" targetId="0300-ed31-06b9-0c49" type="rule"/>
         <infoLink name="Caballería" id="113f-900b-a74f-5650" hidden="false" targetId="276f-0034-6534-f691" type="rule"/>
       </infoLinks>
       <profiles>
@@ -28585,7 +28838,7 @@ especial de 4+.</description>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Gran Pricipado de Ostland" id="306c-4370-f039-e0aa" hidden="false" targetId="484a-0684-7f37-cc74" type="profile"/>
+        <infoLink name="Gran Principado de Ostland" id="306c-4370-f039-e0aa" hidden="false" targetId="484a-0684-7f37-cc74" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="416e-6b47-5416-7661" type="increment" value="1">
@@ -28604,7 +28857,7 @@ especial de 4+.</description>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Gran Pricipado de Ostland" id="57f6-418c-d312-a4ae" hidden="false" targetId="484a-0684-7f37-cc74" type="profile"/>
+        <infoLink name="Gran Principado de Ostland" id="57f6-418c-d312-a4ae" hidden="false" targetId="484a-0684-7f37-cc74" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="883d-d748-78ca-0bfc" type="increment" value="1">
@@ -28623,7 +28876,7 @@ especial de 4+.</description>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Gran Pricipado de Reikland" id="e72c-16e8-8169-d4a7" hidden="false" targetId="aeea-50f7-3068-91a2" type="profile"/>
+        <infoLink name="Gran Principado de Reikland" id="e72c-16e8-8169-d4a7" hidden="false" targetId="aeea-50f7-3068-91a2" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="c667-e838-a757-f60e" type="increment" value="1">
@@ -28642,7 +28895,7 @@ especial de 4+.</description>
         <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
       </costs>
       <infoLinks>
-        <infoLink name="Gran Pricipado de Reikland" id="5e0d-4065-f98c-7af9" hidden="false" targetId="aeea-50f7-3068-91a2" type="profile"/>
+        <infoLink name="Gran Principado de Reikland" id="5e0d-4065-f98c-7af9" hidden="false" targetId="aeea-50f7-3068-91a2" type="profile"/>
       </infoLinks>
       <modifiers>
         <modifier field="2dd7-78b3-3a9e-76f4" type="increment" value="1">
@@ -29953,7 +30206,7 @@ ser superior a 4.</characteristic>
           </costs>
           <infoLinks>
             <infoLink name="Arma de mano" id="7202-75b9-a2f9-ed9a" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-            <infoLink name="Arma de mano adicional" id="fc37-5240-305c-317d" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+            <infoLink name="Arma emparejadas" id="fc37-5240-305c-317d" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
             <infoLink name="Ataques envenenados" id="c071-7b01-9c03-897f" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
           </infoLinks>
           <profiles>
@@ -30397,7 +30650,7 @@ durante los Desafíos en los que participe.</characteristic>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Resistencia a la magia (1)" id="88f7-c722-22dd-2161" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
+            <infoLink name="Resistencia mágica (1)" id="88f7-c722-22dd-2161" hidden="false" targetId="eae7-760e-1a1e-47d7" type="rule"/>
           </infoLinks>
           <profiles>
             <profile name="Virtud de la pureza" id="047f-2dd9-470b-f7af" hidden="false" typeId="5f3b-0b0e-ccc0-b694" typeName="Virtudes">
@@ -30616,7 +30869,7 @@ durante los Desafíos en los que participe.</characteristic>
             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
           </costs>
           <infoLinks>
-            <infoLink name="Resistencia a la magia (2)" id="8462-f9ab-cd0b-fdc7" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
+            <infoLink name="Resistencia mágica (2)" id="8462-f9ab-cd0b-fdc7" hidden="false" targetId="9718-2e66-193f-7dd6" type="rule"/>
             <infoLink name="Tozudez" id="b32f-6a8d-1e61-2e5f" hidden="false" targetId="eeaa-5e56-bdf4-3ddb" type="rule"/>
           </infoLinks>
           <profiles>

@@ -41,17 +41,12 @@
           <modifiers>
             <modifier field="maxPercentage" type="set" value="30">
               <conditions>
-                <condition childId="4bff-f57e-cbdd-cdbc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-            <modifier field="hidden" type="set" value="true">
-              <conditions>
-                <condition childId="f2a0-ff97-4c0c-c6c5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                <condition childId="898d-3f8c-7255-9490" childName="Caledor" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
               </conditions>
             </modifier>
             <modifier field="maxPercentage" type="set" value="20">
               <conditions>
-                <condition childId="0d0b-60b1-02c5-b914" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                <condition childId="f971-39d0-b994-47ca" childName="Mariemburgo" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -63,12 +58,7 @@
           <modifiers>
             <modifier field="maxPercentage" type="set" value="50">
               <conditions>
-                <condition childId="4bff-f57e-cbdd-cdbc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-            <modifier field="hidden" type="set" value="true">
-              <conditions>
-                <condition childId="f2a0-ff97-4c0c-c6c5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                <condition childId="898d-3f8c-7255-9490" childName="Caledor" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -84,11 +74,6 @@
                 <repeat childId="model" field="limit::points" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1000"/>
               </repeats>
             </modifier>
-            <modifier field="hidden" type="set" value="true">
-              <conditions>
-                <condition childId="b6bc-5ac6-8851-e26e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Unidades especiales" id="5374616e6461726423232344415441232323-5370656369616c23232344415441232323" hidden="false" primary="false" targetId="5370656369616c23232344415441232323">
@@ -100,31 +85,12 @@
           <constraints>
             <constraint id="maxPercentage" field="limit::points" includeChildForces="true" includeChildSelections="true" percentValue="true" scope="roster" shared="false" type="max" value="25"/>
           </constraints>
-          <modifiers>
-            <modifier field="maxPercentage" type="set" value="35">
-              <conditions>
-                <condition childId="f2a0-ff97-4c0c-c6c5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </categoryLink>
         <categoryLink name="Personajes" id="fbd7-0bbd-5dbc-8eb6" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758">
           <constraints>
             <constraint id="448d-4a70-f042-8562" field="limit::points" includeChildForces="true" includeChildSelections="true" percentValue="true" scope="roster" shared="false" type="max" value="50"/>
             <constraint id="0ab5-6383-dd78-ff2b" field="limit::points" includeChildForces="true" includeChildSelections="true" percentValue="true" scope="roster" shared="true" type="min" value="0"/>
           </constraints>
-          <modifiers>
-            <modifier field="448d-4a70-f042-8562" type="set" value="100">
-              <conditions>
-                <condition childId="b6bc-5ac6-8851-e26e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-            <modifier field="0ab5-6383-dd78-ff2b" type="set" value="100">
-              <conditions>
-                <condition childId="b6bc-5ac6-8851-e26e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
         </categoryLink>
         <categoryLink name="Bestia del cieno" id="8959-27ee-bbd0-0965" hidden="false" primary="false" targetId="6645-bf03-34e3-e081">
           <constraints>
@@ -146,7 +112,7 @@
           <modifiers>
             <modifier field="d6fe-b51b-cc30-b0fa" type="set" value="0">
               <conditions>
-                <condition childId="a132-ff2a-7f39-4dc4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="notInstanceOf" value="0"/>
+                <condition childId="ad49-aea4-d645-28dc" childName="Bretonia" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="notInstanceOf" value="0"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -190,29 +156,11 @@
           <modifiers>
             <modifier field="67c9-d818-4992-0369" type="increment" value="1">
               <conditions>
-                <condition childId="4bff-f57e-cbdd-cdbc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                <condition childId="898d-3f8c-7255-9490" childName="Caledor" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
               </conditions>
               <repeats>
                 <repeat childId="model" field="limit::points" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="roster" shared="true" value="1000"/>
               </repeats>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Coatl" id="011d-d048-848a-a8b8" hidden="true" primary="false" targetId="6ac5-4cd8-e378-fe13">
-          <constraints>
-            <constraint id="3245-e99f-e0dc-8306" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-            <constraint id="041c-c515-11ea-1eb5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
-          </constraints>
-          <modifiers>
-            <modifier field="hidden" type="set" value="false">
-              <conditions>
-                <condition childId="f2a0-ff97-4c0c-c6c5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-            <modifier field="3245-e99f-e0dc-8306" type="set" value="2">
-              <conditions>
-                <condition childId="170b-06ad-215f-f891" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1"/>
-              </conditions>
             </modifier>
           </modifiers>
         </categoryLink>
@@ -878,10 +826,9 @@ F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, 
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition childId="c6d1-0def-81bb-7942" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="09c4-4a06-8b6c-530f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="5752-4a70-7461-a2aa" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="74c4-5959-85e8-14bd" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="e3bc-abca-67df-ef39" childName="Middenland" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="bc88-baf5-a594-8c8c" childName="Imperio" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="e6f0-f9c1-ddba-30a6" childName="La Asamblea" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -913,8 +860,8 @@ F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, 
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition childId="718a-95a2-5863-e407" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="469c-f68f-07c2-64cc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="0b06-bd34-d22a-f768" childName="Enanos del caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="981f-a9e0-e635-91a9" childName="Enanos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -941,11 +888,11 @@ F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, 
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition childId="399a-efe8-a7c4-3104" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="619e-e9da-a8e8-4f6f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="d2ea-a0b8-8a9f-e3a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="51fc-eb9b-4cd8-7ac0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="ca36-41ae-f114-eeeb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="2910-39fc-b379-fd9c" childName="Kurgan" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="4c00-65e1-1392-ae35" childName="Guerreros del Caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="3d9a-7caa-41c2-5272" childName="Bestias del Caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="340d-45c5-fd06-dadc" childName="Demonios del caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="a5f6-fe29-2af7-ad04" childName="Grey infernal" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -976,7 +923,7 @@ F5 distribuidos como proyectiles. Sustituye la torre por una pila de escombros, 
                       <modifiers>
                         <modifier field="hidden" type="set" value="false">
                           <conditions>
-                            <condition childId="51fc-eb9b-4cd8-7ac0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                            <condition childId="3d9a-7caa-41c2-5272" childName="Bestias del Caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -1038,8 +985,8 @@ Del mismo modo, una unidad puede mover desde una sección de muralla o torre al 
                           <conditionGroups>
                             <conditionGroup type="or">
                               <conditions>
-                                <condition childId="90ff-d5d9-3ca7-598e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                                <condition childId="49dd-6404-b794-06e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="d8b9-9c9c-7a71-43b0" childName="Altos elfos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                                <condition childId="7ebb-6c38-2e77-20c6" childName="Elfos oscuros" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                               </conditions>
                             </conditionGroup>
                           </conditionGroups>
@@ -1166,7 +1113,7 @@ Del mismo modo, una unidad puede mover desde una sección de muralla o torre al 
                       <modifiers>
                         <modifier field="hidden" type="set" value="false">
                           <conditions>
-                            <condition childId="a132-ff2a-7f39-4dc4" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                            <condition childId="ad49-aea4-d645-28dc" childName="Bretonia" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -4940,7 +4887,7 @@ Dado que la lealtad de los soldados por sus mandos solamente llega hasta donde e
               <modifiers>
                 <modifier field="hidden" type="set" value="false">
                   <conditions>
-                    <condition childId="90ff-d5d9-3ca7-598e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                    <condition childId="d8b9-9c9c-7a71-43b0" childName="Altos elfos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4971,8 +4918,8 @@ hirviendo, salvo que sus impactos tienen las reglas especiales Ataques sólo fla
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition childId="718a-95a2-5863-e407" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                        <condition childId="469c-f68f-07c2-64cc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="981f-a9e0-e635-91a9" childName="Enanos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="0b06-bd34-d22a-f768" childName="Enanos del caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -5002,7 +4949,7 @@ hirviendo, salvo que sus impactos tienen las reglas especiales Ataques sólo fla
               <modifiers>
                 <modifier field="hidden" type="set" value="false">
                   <conditions>
-                    <condition childId="3216-304d-aab6-db09" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                    <condition childId="7ebb-6c38-2e77-20c6" childName="Elfos oscuros" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -5303,7 +5250,7 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
                   <modifiers>
                     <modifier field="hidden" type="set" value="false">
                       <conditions>
-                        <condition childId="718a-95a2-5863-e407" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="a11c-6fc8-61b6-cbc7" childName="Orcos y goblins " field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -5372,8 +5319,8 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition childId="718a-95a2-5863-e407" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                        <condition childId="469c-f68f-07c2-64cc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="981f-a9e0-e635-91a9" childName="Enanos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="0b06-bd34-d22a-f768" childName="Enanos del caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -5441,8 +5388,8 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition childId="79c7-cc45-fd7a-618d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                        <condition childId="d8b4-dbbc-5155-1269" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="47b3-e538-a8ff-e27b" childName="Condes vampiro" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="a2f8-1577-cd21-ab2e" childName="No muertos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -5510,11 +5457,11 @@ Una torre de asedio permite a la unidad que la empuja asaltar las murallas, tal 
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition childId="51fc-eb9b-4cd8-7ac0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                        <condition childId="399a-efe8-a7c4-3104" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                        <condition childId="ca36-41ae-f114-eeeb" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                        <condition childId="d2ea-a0b8-8a9f-e3a5" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-                        <condition childId="619e-e9da-a8e8-4f6f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="340d-45c5-fd06-dadc" childName="Demonios del caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="4c00-65e1-1392-ae35" childName="Guerreros del Caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="2910-39fc-b379-fd9c" childName="Kurgan" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="3d9a-7caa-41c2-5272" childName="Bestias del Caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
+                        <condition childId="a5f6-fe29-2af7-ad04" childName="Grey infernal" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>

@@ -41,7 +41,7 @@
   <selectionEntries>
     <selectionEntry name="Infantería ligera" id="52e2-8c9c-9e84-e525" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="11c2-3afb-8c59-31b2" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="11c2-3afb-8c59-31b2" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -362,7 +362,7 @@
     </selectionEntry>
     <selectionEntry name="Infantería pesada" id="6a71-708a-a630-d0a9" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="e759-fa22-eef9-7182" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="e759-fa22-eef9-7182" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="4fa1-02cd-f2f2-ed1f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -614,7 +614,7 @@
                   <entryLinks>
                     <entryLink name="Armas mágicas. Arma a dos manos" id="adca-215a-c91b-2e88" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Mariemburgo" id="192a-fcf3-c8a7-202b" collective="false" hidden="false" import="true" targetId="ab89-cc40-1ad9-c505" type="selectionEntryGroup"/>
-                    <entryLink name="Talismanes Mágicos" id="f535-34f1-11b0-4a7c" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="f535-34f1-11b0-4a7c" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Mangual" id="e0e9-95a2-fe68-dd90" collective="false" hidden="false" import="true" targetId="a1a5-7361-b444-3054" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Alabarda" id="f8b4-4575-0fa2-18a4" collective="false" hidden="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Arma de mano" id="d389-5b13-a367-1060" collective="false" hidden="false" import="true" targetId="adb2-f22c-21c8-53e7" type="selectionEntryGroup"/>
@@ -781,7 +781,7 @@
     </selectionEntry>
     <selectionEntry name="Arqueros" id="3c04-74f2-f25a-9e2a" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="e36b-54aa-2650-76f8" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="e36b-54aa-2650-76f8" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -1110,7 +1110,7 @@
     </selectionEntry>
     <selectionEntry name="Arcabuceros" id="b155-9f70-028b-69a7" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="f3b6-4b6f-ca4b-376f" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="f3b6-4b6f-ca4b-376f" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -1427,7 +1427,7 @@
     </selectionEntry>
     <selectionEntry name="Ballesteros" id="8ecb-c930-7735-6170" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="ee14-ff0d-3c8e-757d" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="ee14-ff0d-3c8e-757d" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -1744,7 +1744,7 @@
     </selectionEntry>
     <selectionEntry name="Incursores nórdicos" id="e74d-db53-e2ab-5a2c" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="bef2-5835-6171-4e76" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="bef2-5835-6171-4e76" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="6312-cad4-157b-f3d4" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -2109,7 +2109,7 @@
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="d0d5-0b1b-accc-32ad" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="d0d5-0b1b-accc-32ad" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="points" type="increment" value="1">
@@ -2127,7 +2127,7 @@
     </selectionEntry>
     <selectionEntry name="Caballería ligera" id="cd58-4c08-80e4-eae3" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="5095-ffce-09a6-de61" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="5095-ffce-09a6-de61" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="1856-d301-cdf9-345a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -2526,7 +2526,7 @@
     </selectionEntry>
     <selectionEntry name="Caballería pesada" id="b112-8fd2-a3d7-9962" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="8aa6-276d-4e9e-8d80" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="8aa6-276d-4e9e-8d80" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="786b-1f40-5281-50b2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -2762,7 +2762,7 @@
                   <entryLinks>
                     <entryLink name="Objetos hechizados. Mariemburgo" id="7d9e-c6dc-066e-7061" collective="false" hidden="false" import="true" targetId="ab89-cc40-1ad9-c505" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados" id="7fed-ab12-1f32-c892" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink name="Talismanes Mágicos" id="0031-8621-405b-43f7" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="0031-8621-405b-43f7" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Mariemburgo. Arma de mano" id="41a0-6065-5138-df90" collective="false" hidden="false" import="true" targetId="1995-f96a-5ea7-956c" type="selectionEntryGroup"/>
                     <entryLink name="Armaduras mágicas. Mariemburgo. Armadura ligera" id="d919-1664-4ad0-af18" collective="false" hidden="false" import="true" targetId="f403-d0bd-7c7f-a1ce" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Mayal" id="c059-67d3-cce8-109f" collective="false" hidden="false" import="true" targetId="518c-5b40-e21f-57a0" type="selectionEntryGroup"/>
@@ -2917,7 +2917,7 @@
     </selectionEntry>
     <selectionEntry name="Comehombres" id="d889-3887-df95-ffa6" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Singulares" id="5c0a-cd0d-9c9a-52a6" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="5c0a-cd0d-9c9a-52a6" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="5e51-2589-7ed9-7937" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -4308,7 +4308,7 @@
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="ca27-bd10-7fa4-e355" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="ca27-bd10-7fa4-e355" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Lanza" id="efac-6f31-d1b6-b953" collective="false" hidden="false" import="true" type="upgrade">
@@ -4784,7 +4784,7 @@
                       </modifiers>
                     </entryLink>
                     <entryLink name="Objetos hechizados. Mariemburgo" id="e213-af59-1beb-43a0" collective="false" hidden="false" import="true" targetId="ab89-cc40-1ad9-c505" type="selectionEntryGroup"/>
-                    <entryLink name="Objetos hechizados. Mariemburgo. Pagador" id="fd0e-1624-6409-0bc5" collective="false" hidden="false" import="true" targetId="79e0-d745-4c5b-fba9" type="selectionEntryGroup"/>
+                    <entryLink name="Objetos hechizados. Mariemburgo. Pagador o Tesorero" id="fd0e-1624-6409-0bc5" collective="false" hidden="false" import="true" targetId="79e0-d745-4c5b-fba9" type="selectionEntryGroup"/>
                   </entryLinks>
                   <modifiers>
                     <modifier field="236c-34ea-ad3b-749a" type="set" value="0">
@@ -4864,7 +4864,7 @@
                       </modifiers>
                     </entryLink>
                     <entryLink name="Objetos hechizados. Reliquias" id="ab89-dca8-c3c6-67dc" collective="false" hidden="false" import="true" targetId="ca13-8250-6c47-fa86" type="selectionEntryGroup"/>
-                    <entryLink name="Objetos hechizados. Reliquias. Mariemburgo. Pagador" id="0f68-7492-7d72-fcdc" collective="false" hidden="false" import="true" targetId="eb32-804c-e7ed-cb2c" type="selectionEntryGroup"/>
+                    <entryLink name="Objetos hechizados. Reliquias. Mariemburgo. Pagador o Tesorero" id="0f68-7492-7d72-fcdc" collective="false" hidden="false" import="true" targetId="eb32-804c-e7ed-cb2c" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -5029,7 +5029,7 @@
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="a5bd-cddc-acfa-2052" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="a5bd-cddc-acfa-2052" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Lanza" id="a078-ed08-9463-e0af" collective="false" hidden="false" import="true" type="upgrade">
@@ -5385,7 +5385,7 @@
                     <constraint id="1013-dd84-a725-ec7a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Talismanes Mágicos" id="f554-cc4d-f857-7eb7" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="f554-cc4d-f857-7eb7" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Talismanes mágicos. Mariemburgo" id="58f5-7278-5140-e983" collective="false" hidden="false" import="true" targetId="c6b5-5772-a9b0-c0e9" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -5726,7 +5726,7 @@
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="ce5a-6897-498c-bd7f" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="ce5a-6897-498c-bd7f" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Arma a dos manos" id="1de4-f145-f6b7-812c" collective="false" hidden="false" import="true" type="upgrade">
@@ -5970,7 +5970,7 @@
     </selectionEntry>
     <selectionEntry name="Guardia fluvial" id="d826-09f5-85d7-64db" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Básicas" id="7b66-1de7-b858-b848" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="7b66-1de7-b858-b848" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="8cf3-6b04-01a5-00f1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -6193,7 +6193,7 @@
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="83bf-1a6c-6112-d48c" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="83bf-1a6c-6112-d48c" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
               <modifiers>
                 <modifier field="points" type="increment" value="1">
@@ -6219,7 +6219,7 @@
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Pistola" id="2beb-ec1a-eea2-f80d" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
+                    <infoLink name="Pistola (Disparo)" id="2beb-ec1a-eea2-f80d" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="points" type="increment" value="3">
@@ -6335,7 +6335,7 @@
     </selectionEntry>
     <selectionEntry name="Caballeros marinos a pie" id="db17-765e-b6ee-a727" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="bd40-542b-0627-df8d" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="bd40-542b-0627-df8d" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="4731-1cfb-0ed7-9bb1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -6587,7 +6587,7 @@
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Pistola" id="03cf-ab35-ac32-57b2" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
+                    <infoLink name="Pistola (Disparo)" id="03cf-ab35-ac32-57b2" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="points" type="increment" value="2">
@@ -6719,7 +6719,7 @@
     </selectionEntry>
     <selectionEntry name="Caballeros marinos" id="0b16-ab1c-77c9-db5b" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8595-edd4-1e81-67e7" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="8595-edd4-1e81-67e7" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="b33f-ae5f-b484-932a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -6987,7 +6987,7 @@
     </selectionEntry>
     <selectionEntry name="Sombreros negros" id="e198-2668-308f-2e12" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9a3b-960d-3854-1118" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="9a3b-960d-3854-1118" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="0cd5-7daa-54cc-b31d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -7313,7 +7313,7 @@
     </selectionEntry>
     <selectionEntry name="Culebrina" id="33d8-8beb-6103-4ac9" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="7072-4677-21f0-fcdf" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="7072-4677-21f0-fcdf" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="d822-86de-b5b5-f887" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -7502,7 +7502,7 @@
     </selectionEntry>
     <selectionEntry name="Mortero" id="ae2a-8a5a-5f08-998a" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="faa8-4340-a88a-6c2a" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="faa8-4340-a88a-6c2a" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="8335-88db-ed71-db75" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -7650,7 +7650,7 @@
     </selectionEntry>
     <selectionEntry name="Orden del Albatros" id="ad1f-4250-2ac1-5f46" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e4dc-62dc-5db1-8af7" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="e4dc-62dc-5db1-8af7" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="7722-9a15-6e1a-76b2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -7930,7 +7930,7 @@
     </selectionEntry>
     <selectionEntry name="Maniquíes" id="d94d-ef94-46bf-f60d" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6620-7d32-7402-101a" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="6620-7d32-7402-101a" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="9fdb-abd3-ab69-ace0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -8280,7 +8280,7 @@
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="9d23-7aed-c697-f5f1" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="9d23-7aed-c697-f5f1" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="points" type="increment" value="1">
@@ -8466,7 +8466,7 @@
                             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Arma de mano adicional" id="6938-8391-85d8-fe51" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                            <infoLink name="Arma emparejadas" id="6938-8391-85d8-fe51" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry name="Arma a dos manos" id="8484-7561-efff-08ad" collective="false" hidden="false" import="true" type="upgrade">
@@ -8541,7 +8541,7 @@
     </selectionEntry>
     <selectionEntry name="Barco de tierra de clase &quot;Mariemburgo&quot;" id="1d5b-6abd-2ccb-2f04" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7db0-4b54-e370-9e19" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="7db0-4b54-e370-9e19" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="673b-9dab-2345-955d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -8881,7 +8881,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                     <constraint id="0132-5668-7eae-f14a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Talismanes Mágicos" id="8fa0-22a4-7172-8d2b" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="8fa0-22a4-7172-8d2b" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Talismanes mágicos. Mariemburgo" id="76b5-4d35-ca1b-daef" collective="false" hidden="false" import="true" targetId="c6b5-5772-a9b0-c0e9" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -9136,7 +9136,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="8492-5521-cc88-63b0" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="8492-5521-cc88-63b0" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -9895,7 +9895,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                     <constraint id="55cb-8031-116e-7aae" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Talismanes Mágicos" id="da40-3c04-73ed-d66c" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="da40-3c04-73ed-d66c" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Talismanes mágicos. Mariemburgo" id="70a5-c590-b280-f2c2" collective="false" hidden="false" import="true" targetId="c6b5-5772-a9b0-c0e9" type="selectionEntryGroup"/>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -10036,7 +10036,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="19f3-c684-26f3-5a9b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="19f3-c684-26f3-5a9b" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Cetro de Manann" id="6845-2c35-1f22-a9bc" collective="false" hidden="false" import="true" type="upgrade">
@@ -10122,7 +10122,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     <selectionEntry name="Licenciado del Colegio de Von Henryk" id="6c16-bc8c-935d-a081" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Personajes" id="ee44-b54d-8b67-b2a2" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
-        <categoryLink name="New CategoryLink" id="8a45-3c67-adc3-1055" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
+        <categoryLink name="Comandantes" id="8a45-3c67-adc3-1055" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="0"/>
@@ -10559,7 +10559,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="46df-e70d-154b-cc88" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="46df-e70d-154b-cc88" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -11511,7 +11511,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     <selectionEntry name="[E] - Capitán Aber Walblatt" id="c568-d443-2ff3-dfe8" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Personajes" id="e9f9-afb9-a954-0afb" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
-        <categoryLink name="New CategoryLink" id="465e-6957-07bc-c6c5" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
+        <categoryLink name="Comandantes" id="465e-6957-07bc-c6c5" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="547c-d15b-0e75-ea68" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -12066,7 +12066,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Milicia privada de Van Kuypers" id="c629-c795-3fe1-d959" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="cd30-d1db-be2b-4d20" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="cd30-d1db-be2b-4d20" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="d46b-f304-6274-6097" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -12534,7 +12534,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Caballeros exiliados" id="8521-37e5-3707-573f" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8561-3200-2dd5-e336" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="8561-3200-2dd5-e336" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="a2f2-6c09-4de6-1eb8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -12806,7 +12806,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Piqueros de Tobaro" id="0982-11f2-b754-a499" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e137-ca72-90d8-9da1" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="e137-ca72-90d8-9da1" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="ba3b-124b-2c7b-61b6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -13060,7 +13060,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Guardianes de Van Schlledt" id="48d9-e059-16ad-4a23" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1e78-88ef-c015-9339" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="1e78-88ef-c015-9339" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="72c5-ce87-0b78-c74e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -13415,7 +13415,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Batería ligera de pólvora" id="3014-2c1f-64c4-3912" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="253d-f6da-488c-ebae" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="253d-f6da-488c-ebae" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="8d76-f838-1ed8-51e9" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -13542,7 +13542,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Guardia enana de la casa Fooger" id="0a31-f277-7efb-9dc3" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="50e5-4075-b142-fe8b" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="50e5-4075-b142-fe8b" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="086a-09bd-3190-eae8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -13995,7 +13995,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Milicia privada de Van den Nijmenk " id="90e7-42e8-c023-06f5" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3069-2d6e-b8a5-e10f" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="3069-2d6e-b8a5-e10f" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="f6dd-3068-07a4-da56" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -14349,7 +14349,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Milicia privada Samurai" id="d3c5-ceb3-1878-e92c" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="d0cd-1665-ea0a-8656" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="d0cd-1665-ea0a-8656" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="e8c5-8594-d92d-9332" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -14688,7 +14688,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Guardias Elfos Rtohemur" id="4552-0a22-035c-de47" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a9b9-8e19-284c-27e1" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="a9b9-8e19-284c-27e1" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="0adc-54d3-7e30-1cda" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -14971,7 +14971,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     <selectionEntry name="[E] - Edvard Van Der Kraal" id="74ce-6879-9379-2abf" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Personajes" id="8595-00ab-4001-ad1e" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
-        <categoryLink name="New CategoryLink" id="a633-f790-508c-52ea" hidden="false" primary="true" targetId="4865726f657323232344415441232323"/>
+        <categoryLink name="Héroes" id="a633-f790-508c-52ea" hidden="false" primary="true" targetId="4865726f657323232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="9499-b161-9432-55e1" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -15060,7 +15060,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
               </costs>
               <infoLinks>
                 <infoLink name="Arma de mano" id="c28c-c8a9-d940-2b45" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-                <infoLink name="Arma de mano adicional" id="3436-7f30-efb2-ac3d" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="3436-7f30-efb2-ac3d" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Escudo" id="9cee-ab2d-86b8-8e8c" collective="false" hidden="false" import="true" type="upgrade">
@@ -15196,7 +15196,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     <selectionEntry name="Tesorero del Patriarca" id="842f-730d-0c5d-e571" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Personajes" id="0ab9-779b-39d6-d6cc" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
-        <categoryLink name="New CategoryLink" id="7b27-e846-04cb-0679" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
+        <categoryLink name="Comandantes" id="7b27-e846-04cb-0679" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="84b7-e46a-4df8-dcfd" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -15484,7 +15484,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                     </entryLink>
                     <entryLink name="Objetos hechizados. Mariemburgo" id="1f07-860a-0181-e610" collective="false" hidden="false" import="true" targetId="ab89-cc40-1ad9-c505" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados. Mariemburgo. Bendición de Manann" id="09af-0d6e-b4d5-4505" collective="false" hidden="false" import="true" targetId="890f-2919-cafe-6225" type="selectionEntryGroup"/>
-                    <entryLink name="Objetos hechizados. Mariemburgo. Pagador" id="a535-ab90-d6a9-3b74" collective="false" hidden="false" import="true" targetId="79e0-d745-4c5b-fba9" type="selectionEntryGroup"/>
+                    <entryLink name="Objetos hechizados. Mariemburgo. Pagador o Tesorero" id="a535-ab90-d6a9-3b74" collective="false" hidden="false" import="true" targetId="79e0-d745-4c5b-fba9" type="selectionEntryGroup"/>
                   </entryLinks>
                   <modifiers>
                     <modifier field="8498-6b0b-f600-d170" type="set" value="0">
@@ -15729,7 +15729,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="cb0a-63ba-7c42-7311" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="cb0a-63ba-7c42-7311" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Lanza" id="339d-2186-0574-73a6" collective="false" hidden="false" import="true" type="upgrade">
@@ -15940,7 +15940,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Milicia privada de Van Kuypers (Básica)" id="b13f-0793-5b7a-537a" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="29f5-fc77-ddea-29ca" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="29f5-fc77-ddea-29ca" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="fedf-6e5e-e727-bf0e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -16379,7 +16379,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                     <entryLink name="Armas mágicas. Arma a dos manos" id="a746-83d5-2512-b74b" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Alabarda" id="5d81-f77a-12ed-4f87" collective="false" hidden="false" import="true" targetId="f662-2325-23d5-cffb" type="selectionEntryGroup"/>
                     <entryLink name="Armaduras mágicas. Yelmo" id="9cc6-eba6-0e5f-e291" collective="false" hidden="false" import="true" targetId="e407-01a1-990d-086c" type="selectionEntryGroup"/>
-                    <entryLink name="Armaduras mágicas. Mariemburgo. Armadura ligera" id="f180-f141-09c7-be1f" collective="false" hidden="false" import="true" targetId="ac93-fd7b-8094-069d" type="selectionEntryGroup"/>
+                    <entryLink name="Armaduras mágicas. Mariemburgo" id="f180-f141-09c7-be1f" collective="false" hidden="false" import="true" targetId="ac93-fd7b-8094-069d" type="selectionEntryGroup"/>
                     <entryLink name="Armaduras mágicas. Escudo" id="a1f1-2bef-d7f0-cb16" collective="false" hidden="false" import="true" targetId="0b7a-5e32-07ba-f425" type="selectionEntryGroup"/>
                     <entryLink name="Armaduras mágicas. Armadura pesada" id="0158-3b58-69d5-e238" collective="false" hidden="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
                     <entryLink name="Talismanes mágicos. Mariemburgo" id="ce44-87fc-eaf2-43cd" collective="false" hidden="false" import="true" targetId="c6b5-5772-a9b0-c0e9" type="selectionEntryGroup"/>
@@ -16419,7 +16419,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="Caballería pesada (Básica)" id="8a6f-23b3-63c3-d6a6" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8d59-ea53-79ee-43e0" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="8d59-ea53-79ee-43e0" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="4628-cefe-c0c0-f59d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -16668,7 +16668,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                   <entryLinks>
                     <entryLink name="Objetos hechizados. Mariemburgo" id="6595-8611-6068-48de" collective="false" hidden="false" import="true" targetId="ab89-cc40-1ad9-c505" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados" id="b548-9b47-c5a4-dc59" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
-                    <entryLink name="Talismanes Mágicos" id="a6ee-4ee2-34fb-af83" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="a6ee-4ee2-34fb-af83" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Mariemburgo. Arma de mano" id="5589-8034-0890-0f0d" collective="false" hidden="false" import="true" targetId="1995-f96a-5ea7-956c" type="selectionEntryGroup"/>
                     <entryLink name="Armaduras mágicas. Mariemburgo. Armadura ligera" id="a771-403f-f534-52eb" collective="false" hidden="false" import="true" targetId="f403-d0bd-7c7f-a1ce" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Mayal" id="1d9b-a473-51af-907e" collective="false" hidden="false" import="true" targetId="518c-5b40-e21f-57a0" type="selectionEntryGroup"/>
@@ -16823,7 +16823,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Caballeros exiliados (Básica)" id="2af8-12a1-7755-1479" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1d42-8fe2-b6d0-c915" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="1d42-8fe2-b6d0-c915" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="9300-ba35-3d6b-f4fc" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -17103,7 +17103,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Contrabandistas de van Haagen" id="6648-6c8b-4aac-a1ef" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="38e0-5f76-0fa3-fe4a" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="38e0-5f76-0fa3-fe4a" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="2bb1-c9eb-8224-e39b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -17447,7 +17447,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Contrabandistas de van Haagen (Básica)" id="23a1-aeae-fcc3-1bc5" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="6438-1dd9-8873-3c7b" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="6438-1dd9-8873-3c7b" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="9063-e10f-13b2-0495" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -17800,7 +17800,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Guardianes de Van Schlledt (Básica)" id="594f-4d8d-1271-066d" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="39a3-3b8e-8369-ad05" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
+        <categoryLink name="Unidades básicas" id="39a3-3b8e-8369-ad05" hidden="false" primary="true" targetId="436f726523232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="68a8-61fc-f7d6-3576" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -18163,7 +18163,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Batería ligera de pólvora (Especial)" id="fdc8-3843-127e-d7e1" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="fa4a-72c6-30c6-17ab" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="fa4a-72c6-30c6-17ab" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="9a5a-8a75-e328-3f89" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -18295,7 +18295,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Guardia enana de la casa Fooger (Especial)" id="f3d8-44e2-e711-de43" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="fb02-af1f-cd09-f282" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="fb02-af1f-cd09-f282" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="e96d-4f5c-7eec-545e" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -18753,7 +18753,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Milicia privada Samurai (Especial)" id="d133-e8a4-0be1-8546" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3750-236c-b398-9eb4" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="3750-236c-b398-9eb4" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="8336-c08b-8019-ae8d" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -19097,7 +19097,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[C] - Guardias Elfos Rtohemur (Especial)" id="5a82-c0b6-cb2c-9645" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5b74-481f-3c3b-1224" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="5b74-481f-3c3b-1224" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="46e1-bae6-47ff-03b7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -19384,7 +19384,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="Maniquíes (Especial)" id="4773-14fb-15f0-0ced" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="fcf5-b863-edfb-7dc0" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="fcf5-b863-edfb-7dc0" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="86eb-5400-3d20-e6e8" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="2"/>
@@ -19744,7 +19744,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="10a9-b4c0-f478-6c77" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="10a9-b4c0-f478-6c77" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                   </infoLinks>
                   <modifiers>
                     <modifier field="points" type="increment" value="1">
@@ -19930,7 +19930,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                             <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                           </costs>
                           <infoLinks>
-                            <infoLink name="Arma de mano adicional" id="6f13-4580-90b8-48e2" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                            <infoLink name="Arma emparejadas" id="6f13-4580-90b8-48e2" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry name="Arma a dos manos" id="47f6-0343-18ca-e105" collective="false" hidden="false" import="true" type="upgrade">
@@ -20005,7 +20005,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[R] - Amazonas de Anakonda" id="3b6c-3391-6ed1-26be" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="dca0-1635-d1d2-4d7e" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="dca0-1635-d1d2-4d7e" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="f117-32fc-522b-e482" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -20381,7 +20381,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[R] - Arblastiers de Lyonesse" id="3df3-5818-5776-1ed7" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="eb19-12d6-0d34-9223" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="eb19-12d6-0d34-9223" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="3be2-cd19-5888-ca21" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -20776,7 +20776,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[R] - Arqueros silvanos de Skarloc" id="17ca-615b-5d72-9b1e" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="64f1-abb4-c132-b9b5" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="64f1-abb4-c132-b9b5" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="0f8a-2d68-ad94-b8c7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -21035,7 +21035,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
                     <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
                   </costs>
                   <infoLinks>
-                    <infoLink name="Arma de mano adicional" id="16eb-d47a-ee63-00ac" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                    <infoLink name="Arma emparejadas" id="16eb-d47a-ee63-00ac" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                     <infoLink name="Arma de mano" id="7f5c-45ef-1411-5544" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
                   </infoLinks>
                 </selectionEntry>
@@ -21524,7 +21524,7 @@ El Barco de tierra puede disparar su Culebrina incluso si está trabado en comba
     </selectionEntry>
     <selectionEntry name="[R] - Artillería a caballo de Bronzino" id="032a-f6b3-d042-2df6" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="b4df-5136-15f2-e152" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="b4df-5136-15f2-e152" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="85f6-a49b-8637-4798" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -21662,7 +21662,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Pistola" id="f4ab-2b8c-f700-d339" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
+                <infoLink name="Pistola (Disparo)" id="f4ab-2b8c-f700-d339" hidden="false" targetId="9c4d-f670-7b68-06b1" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -21853,7 +21853,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Asesinos de Véspero" id="43c1-92f9-565d-d5fa" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="34cd-5f1d-4447-0e43" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="34cd-5f1d-4447-0e43" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="7675-986e-7919-5f77" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -21939,7 +21939,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="de51-35bd-a9db-66f4" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="de51-35bd-a9db-66f4" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                 <infoLink name="Arma de mano" id="baeb-053b-0547-4b27" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
               </infoLinks>
             </selectionEntry>
@@ -22019,7 +22019,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="1e17-be92-13ce-5f11" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="1e17-be92-13ce-5f11" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                 <infoLink name="Arma de mano" id="3c21-8383-a622-21d5" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
               </infoLinks>
             </selectionEntry>
@@ -22201,7 +22201,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Ballesteros de asedio de Braganza" id="8dbd-745f-9315-cc05" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ea15-2c95-0e6b-7871" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="ea15-2c95-0e6b-7871" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="b80b-e2e4-8d92-f0a8" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -22509,7 +22509,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Bandoleros contrabandistas estalinos" id="78f4-be37-f8b2-b3f3" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="af51-8fa9-4a52-d2fa" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="af51-8fa9-4a52-d2fa" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="5c4d-bb82-f2e2-3565" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -22528,16 +22528,6 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
         <infoLink name="Hostigadores" id="b2ec-bd52-17a0-d2e0" hidden="false" targetId="999c-d422-6c91-46dd" type="rule"/>
         <infoLink name="Regimientos de renombre" id="b2a3-6b8b-6141-611e" hidden="false" targetId="a07a-2bc2-efde-20d3" type="rule"/>
         <infoLink name="Emboscada" id="bc45-9b3c-d76f-59d3" hidden="false" targetId="205a-c2c4-c48e-44c2" type="rule"/>
-        <infoLink name="Lealtad" id="2d18-779b-8d14-16f9" hidden="true" targetId="82f8-7857-d2a2-c2e1" type="rule">
-          <modifiers>
-            <modifier field="name" type="append" value="(Estalia)"/>
-            <modifier field="hidden" type="set" value="false">
-              <conditions>
-                <condition childId="986c-053c-69d2-61fe" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <rules>
         <rule name="Disciplina marcial" id="4b75-3978-79f3-a1b7" hidden="false">
@@ -22609,7 +22599,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Ristra de pistolas" id="7803-844f-70f3-f814" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
+                <infoLink name="Ristra de pistolas (Disparo)" id="7803-844f-70f3-f814" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Broche prometido" id="bfd9-1a23-5d2c-03ea" collective="false" hidden="false" import="true" type="upgrade">
@@ -22668,7 +22658,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Ristra de pistolas" id="8ba9-60ce-5a2a-51bb" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
+                <infoLink name="Ristra de pistolas (Disparo)" id="8ba9-60ce-5a2a-51bb" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
               </infoLinks>
               <profiles>
                 <profile name="Las amantes caprichosas" id="03eb-622d-f9f7-d176" hidden="false" typeId="ce18-64ea-b98c-dc9d" typeName="Arma mágica">
@@ -22936,7 +22926,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Berracos de Thrugg, el Baesorling" id="ec03-e627-7ab4-35ae" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c538-2e11-3367-b8e4" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="c538-2e11-3367-b8e4" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="6425-dc46-dc7c-cfce" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -23306,7 +23296,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
               </costs>
               <infoLinks>
                 <infoLink name="Arma de mano" id="e664-418d-477c-fdce" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-                <infoLink name="Arma de mano adicional" id="ab90-3d6b-5901-9f99" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="ab90-3d6b-5901-9f99" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Arco" id="ec45-b1d3-097d-ec7f" collective="false" hidden="false" import="true" type="upgrade">
@@ -23454,7 +23444,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Bucaneros de Van Klumf" id="18d0-f195-6aff-0e4d" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="477a-8b10-207f-0fa8" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="477a-8b10-207f-0fa8" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="68ea-5817-6848-061b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -23826,7 +23816,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Caballeros de la llama purificadora" id="4d35-7ac5-8be7-4354" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="93b2-b968-eec1-74f0" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="93b2-b968-eec1-74f0" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="db20-a008-d3b2-f075" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -24279,7 +24269,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Cazadores de Voland" id="439b-67a1-03d6-ce80" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8d54-1cc7-946b-1af4" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="8d54-1cc7-946b-1af4" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="cead-dff2-383c-b527" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -24499,7 +24489,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Cerveceros de Bugman" id="76b5-c4aa-e839-4bf7" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="681b-301e-ff0e-0bb2" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="681b-301e-ff0e-0bb2" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="b1fb-5651-2c13-3ae5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -25054,7 +25044,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Comehombres de Golgfag" id="72c0-343e-ffd0-1934" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="00ad-1fd4-8e13-103f" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="00ad-1fd4-8e13-103f" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="5b6b-394b-428e-52e3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -25618,7 +25608,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Comisión de obras públicas de Marienburgo" id="c957-1660-7f43-cbfb" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c4a6-bbd5-aa4d-825a" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="c4a6-bbd5-aa4d-825a" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="e370-daa9-af9b-60f9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -26099,7 +26089,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Compañía Alcatani" id="cc17-8cae-9e82-a3af" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="1e7b-c6bc-1451-5bda" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="1e7b-c6bc-1451-5bda" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="5419-2b9e-bc85-9855" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -26240,7 +26230,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="6757-ea7d-196b-19c9" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="6757-ea7d-196b-19c9" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                 <infoLink name="Arma de mano" id="28fa-bfc8-3f92-7b18" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
               </infoLinks>
             </selectionEntry>
@@ -26391,7 +26381,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Compañía del leopardo" id="74bf-acaf-1d5a-5caf" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="4b2f-4c47-99dc-af9d" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="4b2f-4c47-99dc-af9d" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="eebd-41bf-cc1e-f49a" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -26706,7 +26696,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Compañía dragón" id="4fe8-5ea2-c5a4-c59e" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="15d4-754f-7c05-f353" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="15d4-754f-7c05-f353" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="34b1-c565-ed74-4156" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -27228,7 +27218,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Compañía maldita" id="ba3e-759e-75e8-3cdf" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="eea7-c66a-b64f-8179" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="eea7-c66a-b64f-8179" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="8468-f548-2c06-294b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -27599,7 +27589,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Desolladores de Mengil" id="8d11-a91b-8d29-0c64" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e03a-433f-572e-c0f3" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="e03a-433f-572e-c0f3" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="506e-ba13-ca5c-e351" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -27681,7 +27671,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
               </costs>
               <infoLinks>
                 <infoLink name="Arma de mano" id="5892-6feb-4157-5622" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-                <infoLink name="Arma de mano adicional" id="f85e-eb32-d693-0afd" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="f85e-eb32-d693-0afd" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Armadura pesada" id="cae4-9e38-60e0-5578" collective="false" hidden="false" import="true" type="upgrade">
@@ -27773,7 +27763,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Arma de mano adicional" id="0ded-f9c9-d4ca-8d54" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="0ded-f9c9-d4ca-8d54" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
                 <infoLink name="Arma de mano" id="f2e6-0464-202d-1d22" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
               </infoLinks>
             </selectionEntry>
@@ -28039,7 +28029,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Despojadores de las tierras Yermas" id="6f5f-4442-3511-dbbf" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="17ef-bba0-d9f6-80c0" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="17ef-bba0-d9f6-80c0" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="45e2-4898-05ad-ce97" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -28342,7 +28332,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Despojadores hobgoblin de Throg" id="cc6e-97e3-8e45-a27e" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="8777-b84a-ae51-8c23" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="8777-b84a-ae51-8c23" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="133f-62e0-188a-cc6d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -28882,7 +28872,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Gallos de pelea de Lumpin Croop" id="8a4f-735c-7c5c-c2c7" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ae53-4113-792b-f911" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="ae53-4113-792b-f911" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="bf16-c3eb-9317-eda6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -29162,7 +29152,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
               </costs>
               <infoLinks>
                 <infoLink name="Arma de mano" id="0800-c6b0-98a3-648a" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-                <infoLink name="Arma de mano adicional" id="e2ba-9bec-386b-577e" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+                <infoLink name="Arma emparejadas" id="e2ba-9bec-386b-577e" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry name="Armadura ligera" id="ae95-b378-286f-ae32" collective="false" hidden="false" import="true" type="upgrade">
@@ -29372,7 +29362,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Gargolas voladoras de Barda Von Mickelstein" id="b476-339f-86e8-06af" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c238-5de1-73b8-e9cc" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="c238-5de1-73b8-e9cc" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="8254-16bf-c001-1803" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -29736,7 +29726,7 @@ Artillería a caballo. Alcance: Est. 0-6. Fuerza: 7. Reglas Especiales: Heridas 
     </selectionEntry>
     <selectionEntry name="[R] - Gigantes de Albión" id="5182-4c25-7cfd-01a1" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2adb-5698-99f5-4053" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="2adb-5698-99f5-4053" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="b241-431b-5ddd-b0f0" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -30067,7 +30057,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Guardia republicana de Ricco" id="ea55-f941-524b-009b" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="9c58-c499-07e0-1a08" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="9c58-c499-07e0-1a08" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="9d2c-08db-9b98-86fb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -30389,7 +30379,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Guerreros dragón de Lahmia" id="1357-c5c7-8d8f-14f5" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e6b5-ed43-faac-e2c0" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="e6b5-ed43-faac-e2c0" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="1242-295d-6ccd-655e" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -30782,7 +30772,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Hombres oso de Urslo" id="1509-40a7-8679-bb46" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="f665-a3f3-73ed-6592" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="f665-a3f3-73ed-6592" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="6ac8-a185-9645-7404" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -31123,7 +31113,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Hombres pájaro de Catrazza" id="cd7d-aacd-e82d-992b" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3d10-a10a-8743-b429" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="3d10-a10a-8743-b429" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="05f9-dcc5-d8fd-bf75" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -31406,7 +31396,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Incursores de Skeggi" id="f7ab-a857-cb39-a104" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e555-83fa-6d18-7816" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="e555-83fa-6d18-7816" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="ccf9-8755-1152-82f6" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -31749,7 +31739,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Incursores de Tichi-Huichi" id="d310-cec7-3d34-e4f6" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="137b-05f1-6586-a9ca" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="137b-05f1-6586-a9ca" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="de13-7550-9e08-0481" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -32035,7 +32025,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Jinetes de lobo hobgoblin de Oglah Khan" id="28e3-9425-a2e8-8c94" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="3dfb-157e-e04c-0bab" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="3dfb-157e-e04c-0bab" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="41fd-3b64-bb89-95cb" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -32318,7 +32308,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Legión de pesadilla" id="d64c-77ba-514b-7bb8" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="ce7a-cbc8-a06c-abda" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="ce7a-cbc8-a06c-abda" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="cdc7-8f9d-5b24-b3a9" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -32673,7 +32663,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Legión perdida de Pirazzo" id="502b-e34b-b773-4414" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="e1b9-7ad3-b961-b8e8" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="e1b9-7ad3-b961-b8e8" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="aa94-1cea-0950-5679" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -33036,7 +33026,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Malakai Makaisson y el cercenagoblins" id="74e9-9f74-1306-510f" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="c2c0-9869-3321-c0e5" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="c2c0-9869-3321-c0e5" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="4a18-1864-9147-abc3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -33269,7 +33259,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Matadores piratas de Drong el largo" id="d741-7675-ad77-14ef" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="5bbd-8860-2fe9-1d4c" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="5bbd-8860-2fe9-1d4c" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="7e7c-6a65-13dd-3fcd" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -33389,7 +33379,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
                 <cost name="pts de Asedio" typeId="7deb-c7e6-415b-8067" value="0"/>
               </costs>
               <infoLinks>
-                <infoLink name="Ristra de pistolas" id="bbcb-4ec0-3ae2-4d81" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
+                <infoLink name="Ristra de pistolas (Disparo)" id="bbcb-4ec0-3ae2-4d81" hidden="false" targetId="4bdd-2d56-6b82-91a4" type="profile"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -33585,7 +33575,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Perros del desierto de Al Muktar" id="0cec-d868-d759-2e33" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="bb83-1bf2-94a0-d05e" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="bb83-1bf2-94a0-d05e" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="9e22-c1a4-86dc-9de7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -34071,7 +34061,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - Tiradores de Miragliano" id="149d-4f34-8987-d26c" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="7d74-f136-958d-a264" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="7d74-f136-958d-a264" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="ef60-3ed3-5e2c-4cc3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -34369,7 +34359,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[E] - Espadas de Manann" id="17e3-482c-b8af-c02b" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Especiales" id="0bc6-a47f-7664-8d85" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="0bc6-a47f-7664-8d85" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="c3f7-8dbd-c53e-c0d7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -34622,7 +34612,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     <selectionEntry name="[E] - Mundvard El Cruel, Señor de las Sombras" id="d00d-4837-0e85-ca38" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink name="Personajes" id="5470-9c39-1a80-ae44" hidden="false" primary="false" targetId="e839-bd6b-7e36-e758"/>
-        <categoryLink name="New CategoryLink" id="ce98-34eb-f734-2f6b" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
+        <categoryLink name="Comandantes" id="ce98-34eb-f734-2f6b" hidden="false" primary="true" targetId="4c6f72647323232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="17f3-8185-8b9e-609b" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="0"/>
@@ -34898,7 +34888,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[E] - Tumularios marinos" id="e610-d809-fd96-3db0" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="2edf-f3d6-076f-66ed" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="2edf-f3d6-076f-66ed" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="ee57-6dd3-69ae-bbed" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -35161,7 +35151,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
                   </constraints>
                   <entryLinks>
                     <entryLink name="Objetos hechizados. Mariemburgo" id="e8ca-19b1-26ef-d906" collective="false" hidden="false" import="true" targetId="ab89-cc40-1ad9-c505" type="selectionEntryGroup"/>
-                    <entryLink name="Talismanes Mágicos" id="15c7-259e-cec4-42bd" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
+                    <entryLink name="Talismanes mágicos" id="15c7-259e-cec4-42bd" collective="false" hidden="false" import="true" targetId="a22a-cc4c-c65f-f12e" type="selectionEntryGroup"/>
                     <entryLink name="Armaduras mágicas. Armadura pesada" id="2162-cd80-b387-c4b9" collective="false" hidden="false" import="true" targetId="216d-6fd9-5cbc-59a8" type="selectionEntryGroup"/>
                     <entryLink name="Objetos hechizados" id="6581-465b-acdc-7f1b" collective="false" hidden="false" import="true" targetId="2063-e117-e6be-2f4d" type="selectionEntryGroup"/>
                     <entryLink name="Armaduras mágicas. Mariemburgo. Armadura ligera" id="2867-56d1-8d22-4b3c" collective="false" hidden="false" import="true" targetId="f403-d0bd-7c7f-a1ce" type="selectionEntryGroup"/>
@@ -35293,7 +35283,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[Ex] - Merwyrms" id="bd40-2d06-9e25-ac79" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="Unidades Singulares" id="dca3-897f-8ec3-286a" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
+        <categoryLink name="Unidades singulares" id="dca3-897f-8ec3-286a" hidden="false" primary="true" targetId="5.261726523232345e+27"/>
       </categoryLinks>
       <constraints>
         <constraint id="f7a5-7ce2-8a03-261c" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="1"/>
@@ -35555,7 +35545,7 @@ Barrido con el garrote: El gigante causa a su unidad objetivo 1D6 impactos de F7
     </selectionEntry>
     <selectionEntry name="[R] - El Gremio de Estibadores y Carreteros de la Ciudad de Marienburgo" id="78c1-50b8-28ac-8601" collective="false" hidden="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink name="New CategoryLink" id="a847-1386-ae74-a608" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
+        <categoryLink name="Unidades especiales" id="a847-1386-ae74-a608" hidden="false" primary="true" targetId="5370656369616c23232344415441232323"/>
       </categoryLinks>
       <constraints>
         <constraint id="7c27-a736-4db3-afe5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
@@ -37855,7 +37845,7 @@ especial tienen la regla Orgullo marcial. Además, las miniaturas con esta regla
           <infoLinks>
             <infoLink name="Poder de penetración" id="d044-ddfb-97fe-2d75" hidden="false" targetId="29d3-6624-40c6-885f" type="rule"/>
             <infoLink name="Arma de mano" id="2331-87fc-6929-94cf" hidden="false" targetId="891d-c74a-2555-793e" type="profile"/>
-            <infoLink name="Arma de mano adicional" id="c53d-d6ea-26b0-25d5" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+            <infoLink name="Arma emparejadas" id="c53d-d6ea-26b0-25d5" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
             <infoLink name="Ataques envenenados" id="c674-a276-65b5-2432" hidden="false" targetId="9867-a512-772e-f61c" type="rule"/>
           </infoLinks>
           <profiles>
@@ -38522,7 +38512,7 @@ especial tienen la regla Orgullo marcial. Además, las miniaturas con esta regla
           </costs>
           <infoLinks>
             <infoLink name="Ballesta" id="de04-aa57-f6b7-48f0" hidden="false" targetId="7d35-d565-a8bb-fdc6" type="profile"/>
-            <infoLink name="Arma de mano adicional" id="bb79-49e0-004a-de62" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
+            <infoLink name="Arma emparejadas" id="bb79-49e0-004a-de62" hidden="false" targetId="45d0-c304-d4fd-5b8f" type="profile"/>
             <infoLink name="Heridas múltiples (1D3)" id="383b-d309-ed0c-621c" hidden="false" targetId="efc4-703c-5d20-0686" type="rule"/>
           </infoLinks>
           <profiles>

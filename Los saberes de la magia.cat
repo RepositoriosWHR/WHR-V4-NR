@@ -1810,7 +1810,7 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditions>
-                <condition childId="49dd-6404-b794-06e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                <condition childId="a0f3-52be-ed7d-f2f2" childName="Hombres lagarto" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1889,7 +1889,7 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditions>
-                <condition childId="49dd-6404-b794-06e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                <condition childId="a0f3-52be-ed7d-f2f2" childName="Hombres lagarto" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1905,7 +1905,7 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditions>
-                <condition childId="49dd-6404-b794-06e7" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                <condition childId="a0f3-52be-ed7d-f2f2" childName="Hombres lagarto" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
               </conditions>
             </modifier>
             <modifier field="hidden" type="set" value="false">
@@ -1939,7 +1939,7 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditions>
-                <condition childId="51fc-eb9b-4cd8-7ac0" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                <condition childId="3d9a-7caa-41c2-5272" childName="Bestias del Caos" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1955,7 +1955,7 @@ desplaza la plantilla la distancia indicada en los dados en la dirección que de
           <modifiers>
             <modifier field="hidden" type="set" value="false">
               <conditions>
-                <condition childId="3216-304d-aab6-db09" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+                <condition childId="7ebb-6c38-2e77-20c6" childName="Elfos oscuros" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
