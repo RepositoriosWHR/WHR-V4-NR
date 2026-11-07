@@ -266,9 +266,9 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="33d5-d3a3-f6ec-63f0" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="eebf-183d-33a6-8588" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="9b79-9735-25e6-ae36" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="9b79-9735-25e6-ae36" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -932,9 +932,9 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="60ba-336f-6b28-d5c6" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="895d-a778-bb8c-c36e" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="2407-7361-3ddb-57f5" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="2407-7361-3ddb-57f5" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -1300,9 +1300,9 @@ Especial: General del ejército. El general del ejército puede elegir un poder 
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="d457-4f22-026e-cf44" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="b368-41ab-1720-be84" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="23ab-a4c9-2235-43ca" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="23ab-a4c9-2235-43ca" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -2913,14 +2913,14 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                       </modifiers>
                     </entryLink>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="ad79-4386-4030-7d37" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="5897-8879-d182-dc5f" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="5897-8879-d182-dc5f" collective="false" hidden="true" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1"/>
                           </conditions>
                         </modifier>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="614d-bf3c-8921-4b1d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="1940-600c-e649-edc2" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -4136,9 +4136,9 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="f1f8-b0b0-f6d4-31c2" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="5093-ca08-bd98-2b2b" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="d844-de4c-2f36-0657" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="d844-de4c-2f36-0657" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -5372,9 +5372,9 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                     <constraint id="e991-9c90-1742-4e4d" field="points" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="25"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="b001-6e24-ca97-2035" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="b001-6e24-ca97-2035" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -5649,9 +5649,9 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
                     <constraint id="2ce7-0363-ca2d-ad32" field="points" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="50"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="90cc-f96b-0186-4ae1" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="90cc-f96b-0186-4ae1" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -7633,14 +7633,14 @@ especial de 4+.</description>
                 <entryLink name="Estandartes mágicos. Clan Lahmia. Tumularios" id="fb40-d31e-9aee-597e" collective="false" hidden="false" import="true" targetId="0d4f-9925-51b8-ce17" type="selectionEntryGroup"/>
                 <entryLink name="Estandartes mágicos. Reliquias" id="c8c4-690f-384c-501a" collective="false" hidden="false" import="true" targetId="ce18-5154-29c0-927b" type="selectionEntryGroup"/>
                 <entryLink name="Talismanes mágicos. Clan Lahmia" id="82db-2d7b-25e1-026c" collective="false" hidden="false" import="true" targetId="c276-6433-a171-0ca9" type="selectionEntryGroup"/>
-                <entryLink name="Estandartes mágicos. Destrucción" id="9e8f-17b3-fed2-385b" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                <entryLink name="Estandartes mágicos. Destrucción" id="9e8f-17b3-fed2-385b" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                   <modifiers>
-                    <modifier field="hidden" type="set" value="true">
+                    <modifier field="hidden" type="set" value="false">
                       <conditions>
                         <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1"/>
                       </conditions>
                     </modifier>
-                    <modifier field="hidden" type="set" value="true">
+                    <modifier field="hidden" type="set" value="false">
                       <conditions>
                         <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                       </conditions>
@@ -8026,9 +8026,9 @@ especial de 4+.</description>
                     <entryLink name="Armas mágicas. Arma a dos manos" id="5d10-8a5d-e45a-44d0" collective="false" hidden="false" import="true" targetId="fce8-e8d3-eae9-d17a" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Arma de mano" id="a622-b3fb-90b9-988c" collective="false" hidden="false" import="true" targetId="b264-9d32-2dd1-0f7d" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Hechiceros. Armas emparejadas" id="366d-48ca-12f7-769e" collective="false" hidden="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="e34e-b199-8319-b3f0" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="e34e-b199-8319-b3f0" collective="false" hidden="true" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1"/>
                           </conditions>
@@ -9832,9 +9832,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="2dc6-9c3b-0d62-5048" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="3c34-2b75-1134-78de" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="c3e5-8b38-ed68-c4d6" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="c3e5-8b38-ed68-c4d6" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -10058,9 +10058,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="6713-4297-867d-59f1" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="90fd-4f48-66a4-21ff" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="a6ec-047a-5fcd-b3e1" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="a6ec-047a-5fcd-b3e1" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -11708,9 +11708,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="5c20-9c23-b426-d985" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="ac21-9d38-267a-9335" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="acc9-b045-a5a8-bcbc" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="acc9-b045-a5a8-bcbc" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -12224,9 +12224,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="40fe-c6a6-2ce1-f7fb" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="6724-5cd9-0c57-08f7" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="df40-8a73-7562-432a" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="df40-8a73-7562-432a" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -12743,9 +12743,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="7283-2373-e6fd-f47d" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="621d-3ee2-3b7b-2a7c" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="8e5a-8c71-a3e1-1b09" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="8e5a-8c71-a3e1-1b09" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -14282,9 +14282,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="5b48-8108-0f06-af97" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="9105-7303-5af9-bd67" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="f586-1d55-5305-91d2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="f586-1d55-5305-91d2" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -14801,9 +14801,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="2df9-e096-ac5f-6ed0" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="b3fc-029c-290e-b8b2" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="8ec6-0973-6585-8e14" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="8ec6-0973-6585-8e14" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -15000,9 +15000,9 @@ especial de 4+.</description>
                     <entryLink name="Armas mágicas. Hechiceros. Armas emparejadas" id="af0b-702e-68d9-7b0b" collective="false" hidden="false" import="true" targetId="1b72-f57d-d50f-b918" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Orden. Arma de mano" id="7a08-8bd8-1dc8-4565" collective="false" hidden="false" import="true" targetId="ac8b-722e-e9df-5345" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="5d40-402e-0b87-c664" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="f52e-d671-a1bf-eed1" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="f52e-d671-a1bf-eed1" collective="false" hidden="true" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -15698,9 +15698,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="c6f1-642c-bb0a-4b6e" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="a08e-9454-b67a-3538" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="2f14-e3e6-1093-2346" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="2f14-e3e6-1093-2346" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -15965,9 +15965,9 @@ especial de 4+.</description>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="423e-3658-7eef-199b" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="30c8-9e98-e30c-65f8" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="5da0-595d-3d0f-ae88" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="5da0-595d-3d0f-ae88" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -17144,9 +17144,9 @@ espejos, los enemigos tendrán un penalizador de -1 para impactarles en combate 
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="97fa-b235-a25c-6313" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="4f8c-d17c-5517-6b2c" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="4ce3-98c1-4c46-ac25" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="4ce3-98c1-4c46-ac25" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -17441,9 +17441,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="efd6-9b68-6bf9-5cff" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="eb50-9036-f2ee-e3ca" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="8bda-f912-a5e8-410a" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="8bda-f912-a5e8-410a" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -17767,9 +17767,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="33d5-a701-6aab-c972" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="48be-8cbe-b0c3-6409" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="6ad1-b2ee-999b-67fb" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="6ad1-b2ee-999b-67fb" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -18100,9 +18100,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="7f6c-ba17-6726-1757" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos" id="3b73-8739-a0d6-f86b" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="afa1-0235-b861-7300" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="afa1-0235-b861-7300" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -19889,9 +19889,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="154b-c2be-9ace-b4e9" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="37b1-4666-b04b-44a6" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="37b1-4666-b04b-44a6" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -20998,9 +20998,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="a181-d488-a9aa-f855" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="d6d5-1ef9-83da-bed2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="d6d5-1ef9-83da-bed2" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -21318,9 +21318,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="6a91-8403-d2b5-be58" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="b34f-c1cd-ea5b-9e36" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="b34f-c1cd-ea5b-9e36" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -21776,9 +21776,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="0f4e-48cc-d88a-b96c" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="8b84-9bee-0a81-71be" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="8b84-9bee-0a81-71be" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -23041,9 +23041,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                     <entryLink name="Armas mágicas. Armas emparejadas" id="8451-2c4e-ea8e-9bc1" collective="false" hidden="false" import="true" targetId="5ee4-83c8-8e2f-256c" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="0e48-2cb7-84fd-f628" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
                     <entryLink name="Armas mágicas. Clan Lahmia. Arma de mano" id="a2f7-c7c1-e05e-104f" collective="false" hidden="false" import="true" targetId="3c61-4f51-9cdf-90ba" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="fe35-e62e-9179-90dc" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="fe35-e62e-9179-90dc" collective="false" hidden="true" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -23717,9 +23717,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="9fee-2e7b-b233-8e73" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="a833-95bf-b08a-4047" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="b164-da81-c8f5-6dbd" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="b164-da81-c8f5-6dbd" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -24008,9 +24008,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="9805-9850-7aa9-b746" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="6cf1-a910-3f6b-ccb5" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="ab0c-2f61-0388-e1e2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="ab0c-2f61-0388-e1e2" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -24416,9 +24416,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="405d-9401-dfb0-8627" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="5ad2-5358-4c78-d644" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="de79-3a14-146b-61a0" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="de79-3a14-146b-61a0" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -24743,9 +24743,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </constraints>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="d137-cfc2-fe7d-d241" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="b5b8-04e6-5f07-c51f" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="b5b8-04e6-5f07-c51f" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -25171,9 +25171,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="4c04-7c28-961c-a5bf" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
                     <entryLink name="Estandartes mágicos. Clan Lahmia" id="8eba-78e2-882a-bac3" collective="false" hidden="false" import="true" targetId="9a4e-5f41-d757-ebaa" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="e31f-6872-85cf-66f2" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="e31f-6872-85cf-66f2" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -25514,9 +25514,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                   </costs>
                   <entryLinks>
                     <entryLink name="Estandartes mágicos" id="259a-6cd9-ed31-07c6" collective="false" hidden="false" import="true" targetId="ff0c-4043-c416-35bc" type="selectionEntryGroup"/>
-                    <entryLink name="Estandartes mágicos. Destrucción" id="eba0-594a-98fe-e943" collective="false" hidden="false" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
+                    <entryLink name="Estandartes mágicos. Destrucción" id="eba0-594a-98fe-e943" collective="false" hidden="true" import="true" targetId="3806-7d3b-e71e-2927" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -25984,9 +25984,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                         </modifier>
                       </modifiers>
                     </entryLink>
-                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="fd48-60fe-745c-0747" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="fd48-60fe-745c-0747" collective="false" hidden="true" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="614d-bf3c-8921-4b1d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="c5eb-cb53-f445-6381" shared="true" type="equalTo" value="0"/>
                           </conditions>
@@ -26727,9 +26727,9 @@ kislevita o un Boyardo que monten un Caballo de guerra sin Barda pueden unirse a
                       </modifiers>
                     </entryLink>
                     <entryLink name="Armas mágicas. Clan Lahmia. Armas emparejadas" id="473e-3f1d-58ef-c82a" collective="false" hidden="false" import="true" targetId="6f37-f613-26df-70b6" type="selectionEntryGroup"/>
-                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="3980-d4ad-d574-be15" collective="false" hidden="false" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
+                    <entryLink name="Armas mágicas. Destrucción. Hechiceros. Arma de mano" id="3980-d4ad-d574-be15" collective="false" hidden="true" import="true" targetId="c726-0ec8-5209-a30e" type="selectionEntryGroup">
                       <modifiers>
-                        <modifier field="hidden" type="set" value="true">
+                        <modifier field="hidden" type="set" value="false">
                           <conditions>
                             <condition childId="ecf2-0ee4-02ee-04b7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1"/>
                           </conditions>
