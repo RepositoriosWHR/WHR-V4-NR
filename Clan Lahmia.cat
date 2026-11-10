@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Clan Lahmia" id="2b59-1b1b-751e-7717" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" battleScribeVersion="2.03" gameSystemId="30ff-3be8-121c-af2a" gameSystemRevision="50" library="false" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Clan Lahmia" id="2b59-1b1b-751e-7717" authorName="Creador: Corocotta Bada  ||  Actualizador V4: Aswer" battleScribeVersion="2.03" gameSystemId="30ff-3be8-121c-af2a" gameSystemRevision="50" library="false" revision="5" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="MercenariosLib" id="d90c-d4a1-34de-349e" importRootEntries="true" targetId="1d4b-e78a-e470-e6d3" type="catalogue"/>
     <catalogueLink name="Los saberes de la magia" id="37a6-95b7-ec75-bb0d" importRootEntries="true" targetId="5d36-008b-d038-0ef7" type="catalogue"/>
@@ -2739,13 +2739,6 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
               <costs>
                 <cost name="pts" typeId="points" value="270"/>
               </costs>
-              <modifiers>
-                <modifier field="hidden" type="set" value="true">
-                  <conditions>
-                    <condition childId="a7c9-be80-08a2-aff3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </entryLink>
             <entryLink name="Trono del aquelarre" id="2452-74ee-7db5-2a37" collective="false" hidden="false" import="true" targetId="34bd-104a-8985-1ae7" type="selectionEntry">
               <constraints>
@@ -2762,13 +2755,6 @@ Doncella espectral puede usar su lamento incluso si se encuentra trabada en comb
               <costs>
                 <cost name="pts" typeId="points" value="40"/>
               </costs>
-              <modifiers>
-                <modifier field="hidden" type="set" value="true">
-                  <conditions>
-                    <condition childId="a7c9-be80-08a2-aff3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="equalTo" value="1"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -10500,12 +10486,12 @@ especial de 4+.</description>
               <modifiers>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
-                    <condition childId="20b5-b127-8c42-b747" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="5579-063f-9dbb-2ea9" shared="true" type="equalTo" value="0"/>
+                    <condition childId="20b5-b127-8c42-b747" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="5579-063f-9dbb-2ea9" shared="true" type="equalTo" value="1"/>
                   </conditions>
                 </modifier>
                 <modifier field="hidden" type="set" value="true">
                   <conditions>
-                    <condition childId="3a3c-0d76-6d05-cdf3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="5579-063f-9dbb-2ea9" shared="true" type="equalTo" value="1"/>
+                    <condition childId="3a3c-0d76-6d05-cdf3" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="5579-063f-9dbb-2ea9" shared="true" type="equalTo" value="0"/>
                   </conditions>
                 </modifier>
               </modifiers>
